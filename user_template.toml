@@ -1,0 +1,394 @@
+[information]
+ name = "onedarker"
+ background = "dark" 
+ author = 'Johan Palacios <johanpalacios.rivera@gmail.com>'
+
+[palette]
+ fg = "#ABB2BF"
+ bg = "#1e2127"
+ red = "#E06C75"
+ darkred = "#be5046"
+ green = "#98c379"
+ yellow = "#E5C07B"
+ darkyellow ="#d19a66"
+ blue = "#61afef"
+ purple = "#C678DD"
+ cyan = "#56b6c2"
+ white = "#abb2bf"
+ black = "#1e2127"
+ foreground ="#ABB2BF"
+ background = "#1e2127"
+ comment_grey = "#5C6370"
+ gutter_fg_grey = "#4B5263"
+ cursor_grey = "#2C323C"
+ visual_grey = "#3E4452"
+ menu_grey = "#3E4452"
+ special_grey = "#3b4048"
+ vertsplit = "#3E4452"
+ lightyellow = "#e5c07b"
+ magenta = "#c678dd"
+ guttergrey = "#4b5263"
+ grayillum = "#3E4452"
+ graylens = "#4e545f"
+ graydep = "#808080"
+
+ # Git
+ sign_add = "#98c379"
+ sign_change = "#e5c07b"
+ sign_delete = "#e06c75"
+
+ # Telescope
+ telescope_prev = "#282c34"
+ 
+[highlights]
+ Normal = 'fg bg'
+ SignColumn = '- -'
+ # MsgArea = 'fg bg'
+ ModeMsg = '- -'
+ MsgSeparator = 'link:StatusLine'
+ SpellBad = 'red - u'
+ SpellCap = 'darkyellow - u'
+ SpellLocal = 'darkyellow - u'
+ SpellRare = 'darkyellow - u'
+ # NormalNC = 'fg bg'
+ Pmenu = 'white black'
+ PmenuSel = 'purple background'
+ WildMenu = 'black blue'
+ Cursor = "background blue"
+ CursorLineNr = '- - b'
+ Comment = 'comment_grey -'
+ Folded = 'comment_grey'
+ FoldColumn = '-'
+ VertSplit = 'vertsplit'
+ NonText = 'special_grey'
+ LineNr = 'gutter_fg_grey -'
+ WinSeparator = "link:VertSplit"
+ FloatBorder = 'link:WinSeparator'
+ Whitespace = 'link:NonText'
+ CursorLine = '- cursor_grey'
+ CursorColumn = '- cursor_grey'
+ ColorColumn = '- cursor_grey'
+ NormalFloat = '- black'
+ Visual = '- visual_grey'
+ VisualNOS = '- visual_grey'
+ WarningMsg = 'yellow'
+ DiffAdd = 'green black'
+ DiffChange = 'yellow - u'
+ DiffDelete = 'black red'
+ DiffText = "black yellow"
+ QuickFixLine = 'black yellow'
+ PmenuSbar = '- cursor_grey'
+ PmenuThumb = '- white'
+ MatchWord = '- - u'
+ MatchParen = 'blue - u'
+ MatchWordCur = '- - u'
+ MatchParenCur = '- - u'
+ lCursor = 'bg fg'
+ # CursorIM = 'cursor_fg cursor_bg'
+ # TermCursor = 'cursor_fg cursor_bg'
+ # TermCursorNC = 'cursor_fg cursor_bg'
+ jonceal = '-'
+ Directory = 'blue'
+ SpecialKey = 'special_grey - b'
+ Title = 'green - b'
+ ErrorMsg = 'red'
+ Search = 'yellow special_grey'
+ IncSearch = 'yellow comment_grey'
+ Substitute = 'link:Search'
+ MoreMsg = '- -'
+ Question = 'purple'
+ EndOfBuffer = 'black'
+ Variable = 'yellow'
+ String = 'green'
+ Character = 'green'
+ Constant = 'red'
+ Number = 'darkyellow'
+ Boolean = 'darkyellow'
+ Float = 'darkyellow'
+ Identifier = 'red'
+ Function = 'blue'
+ Operator = 'purple'
+ Type = 'yellow'
+ StorageClass = 'yellow'
+ Structure = 'yellow'
+ Typedef = 'yellow'
+ Keyword = 'purple'
+ Statement = 'purple'
+ Conditional = 'purple'
+ Repeat = 'purple'
+ Label = 'purple'
+ Exception = 'link:Keyword'
+ Include = 'blue'
+ PreProc = 'yellow'
+ Define = 'purple'
+ Macro = 'purple'
+ PreCondit = 'yellow'
+ Special = 'blue'
+ SpecialChar = 'darkyellow'
+ Tag = '- -'
+ Debug = '- -'
+ Delimiter = '- -'
+ SpecialComment = 'comment_grey'
+ Underlined = '- - u'
+ Bold = '- - b'
+ Italic = '- - i'
+ Ignore = 'cyan bg b'
+ Todo = 'purple'
+ Error = 'red'
+ TabLine = 'comment_grey'
+ TabLineSel = 'white'
+ TabLineFill = '- -'
+
+[Treesitter]
+ "@comment" = 'link:Comment'
+ "@annotation" = 'blue'
+ "@identifier" = "red"
+ "@attribute" = 'purple'
+ "@constructor" = 'red - b'
+ "@type" = 'yellow'
+ "@type.builtin" = 'darkyellow'
+ "@type.definition" = 'link:@type'
+ "@type.qualifier" = 'link:@type'
+ "@conditional" = 'link:Conditional'
+ "@exception" = 'link:Exception'
+ "@include" = 'link:Include'
+ "@keyword" = 'link:Keyword'
+ "@keyword.function" = 'purple'
+ "@keyword.operatior" = "link:Operator"
+ "@keyword.return" = "link:@keyword"
+ "@label" = 'link:Label'
+ "@namespace" = 'purple'
+ "@repeat" = 'link:Repeat'
+ "@constant" = 'red'
+ "@constant.builtin" = 'link:@constant'
+ "@constant.macro" = "link:@constant"
+ "@float" = 'link:Float'
+ "@number" = 'link:Number'
+ "@boolean" = 'link:Boolean'
+ "@character" = 'link:Character'
+ "@character.special" = "purple"
+ "@error" = 'link:Error'
+ "@function" = 'blue'
+ "@function.builtin" = 'blue'
+ "@function.call" = "link:@function"
+ "@function.macro" = 'blue'
+ "@method" = 'blue'
+ "@method.call" = 'link:@method'
+ "@property" = 'red'
+ "@field" = 'darkyellow'
+ "@parameter" = 'red'
+ "@parameter.reference" = 'fg'
+ "@symbol" = 'red'
+ "@text" = 'fg'
+ "@text.strong" = 'fg - b'
+ "@text.emphasis" = "fg - i"
+ "@text.underline" = "fg - u"
+ "@text.strike" = "fg - s"
+ "@text.title" = "fg - b"
+ "@text.literal" = "green"
+ "@text.uri" = "cyan - u"
+ "@text.math" = "fg"
+ "@text.reference" = "blue"
+ "@text.enviroment" = "fg"
+ "@text.enviroment.name" = "fg"
+ "@punctuation.delimiter" = "link:Delimiter"
+ "@punctuation.bracket" = "white"
+ "@punctuation.special" = "purple"
+ "@tag" = "yellow"
+ "@tag.delimiter" = "white"
+ "@tag.attribute" = "darkyellow"
+ "@string" = "green"
+ "@string.reguex" = "purple"
+ "@string.escape" = "purple"
+ "@string.special" = "link:Special"
+ # "@struct" = 'yellow'
+ # TSStrong = 'blue - b'
+ # TSQueryLinterError = 'warning_darkyellow'
+ # TreesitterContext = '- tree_gray'
+ "@variable" = "link:Variable"
+ "@variable.builtin" = "link:@keyword"
+
+[markdown]
+ markdownBlockquote = 'darkyellow'
+ markdownCode = 'darkyellow'
+ markdownCodeBlock = 'darkyellow'
+ markdownCodeDelimiter = 'darkyellow'
+ markdownH1 = 'blue'
+ markdownH2 = 'blue'
+ markdownH3 = 'blue'
+ markdownH4 = 'blue'
+ markdownH5 = 'blue'
+ markdownH6 = 'blue'
+ markdownHeadingDelimiter = 'blue'
+ markdownHeadingRule = 'fg - b'
+ markdownId = 'purple'
+ markdownIdDeclaration = 'blue'
+ markdownIdDelimiter = 'comment_grey'
+ markdownLinkDelimiter = 'comment_grey'
+ markdownBold = 'blue - b'
+ markdownItalic = '- - i'
+ markdownBoldItalic = 'yellow - bi'
+ markdownListMarker = 'blue'
+ markdownOrderedListMarker = 'blue'
+ markdownRule = 'comment_grey'
+ markdownUrl = 'cyan - u'
+ markdownLinkText = 'blue'
+ markdownFootnote = 'darkyellow'
+ markdownFootnoteDefinition = 'darkyellow'
+ markdownEscape = 'yellow'
+
+[XML]
+xmlAttrib = "darkyellow"
+xmlEndTag = "red"
+xmlTag = "red"
+xmlTagName = "red"
+
+[Whichkey]
+ WhichKeyBorder = 'graylens -'
+
+[Telescope]
+ TelescopeBorder = "bg bg"
+ TelescopeNormal = "bg"
+ TelescopePreviewBorder = "telescope_prev telescope_prev"
+ TelescopePreviewNormal = "fg telescope_prev"
+ TelescopePreviewTitle = "bg green"
+ TelescopePromptBorder = "black black"
+ TelescopePromptNormal = "white black"
+ TelescopePromptPrefix = "red black"
+ TelescopePromptTitle =  "bg red "
+ TelescopeResultsBorder =  "telescope_prev telescope_prev"
+ TelescopeResultsNormal =  "- telescope_prev"
+ TelescopeResultsTitle =  "telescope_prev telescope_prev"
+
+[Git]
+ SignAdd = 'sign_add'
+ SignChange = 'sign_change'
+ SignDelete = 'sign_delete'
+ GitSignsAdd = 'link:SignAdd'
+ GitSignsChange = 'link:SignChange'
+ GitSignsDelete = 'link:SignDelete'
+
+[LSP]
+ DiagnosticError = "red"
+ DiagnosticWarn = "yellow"
+ DiagnosticInfo = "blue"
+ DiagnosticHint = "cyan"
+ DiagnosticUnderlineError = "red - u"
+ DiagnosticUnderlineWarn = "yellow - u"
+ DiagnosticUnderlineInfo = "blue - u"
+ DiagnosticUnderlineHint = "cyan - u"
+ LspDiagnosticsDefaultError  = "link:DiagnosticError"
+ LspDiagnosticsDefaultWarning ="link:DiagnosticWarn"
+ LspDiagnosticsDefaultInformation  = "link:DiagnosticInfo"
+ LspDiagnosticsDefaultHint = "link:DiagnosticHint"
+ LspDiagnosticsUnderlineError = "link:DiagnosticUnderlineError"
+ LspDiagnosticsUnderlineWarning = "link:DiagnosticUnderlineWarn"
+ LspDiagnosticsUnderlineInformation = "link:DiagnosticUnderlineInfo"
+ LspDiagnosticsUnderlineHint = "link:DiagnosticUnderlineHint"
+ LspCodeLens = 'graylens - i'
+ LspCodeLensSeparator = 'graylens - i'
+
+[Illuminate]
+ IlluminatedWordWrite = "- menu_grey"
+ IlluminatedWordRead =  "- menu_grey"
+ IlluminatedWordText = "- menu_grey" 
+
+# [Telescope]
+#  TelescopeSelection = 'hint_blue'
+#  TelescopeMatching = 'info_yellow - b'
+#  TelescopeBorder = 'blue bg'
+
+[NvimTree]
+ NvimTreeFolderIcon = 'blue'
+ # NvimTreeIndentMarker = '#c5c5c5'
+ # NvimTreeNormal = 'light_gray tree_gray'
+ # NvimTreeVertSplit = 'alt_bg alt_bg'
+ # NvimTreeFolderName = 'folder_blue'
+ # NvimTreeOpenedFolderName = 'folder_blue - bi'
+ NvimTreeEmptyFolderName = 'comment_grey - i'
+ NvimTreeGitIgnored = 'comment_grey - i'
+ NvimTreeImageFile = 'purple'
+ NvimTreeSpecialFile = 'darkyellow'
+ NvimTreeEndOfBuffer = 'comment_grey'
+ NvimTreeCursorLine = '- #282b37'
+ NvimTreeGitignoreIcon = '#E64A19'
+ NvimTreeGitStaged = 'link:SignAdd'
+ NvimTreeGitNew = 'link:SignChange'
+ NvimTreeGitRenamed = 'link:SignChange'
+ NvimTreeGitDeleted = 'link:SignDelete'
+ NvimTreeGitMerge = 'link:SignChange'
+ NvimTreeGitDirty = 'link:SignChange'
+ NvimTreeSymlink = 'cyan'
+ NvimTreeRootFolder = 'fg - b'
+ NvimTreeExecFile = '#9FBA89'
+
+[Buffer]
+ BufferCurrent = 'fg bg'
+ BufferCurrentIndex = 'fg bg'
+ BufferCurrentMod = 'yellow bg'
+ BufferCurrentSign = 'blue bg'
+ BufferCurrentTarget = 'red bg b'
+
+ BufferVisible = 'fg bg'
+ BufferVisibleIndex = 'fg bg'
+ BufferVisibleMod = 'yellow bg'
+ BufferVisibleSign = 'comment_grey bg'
+ BufferVisibleTarget = 'red bg b'
+
+ BufferInactive = 'comment_grey bg'
+ BufferInactiveIndex = 'comment_grey bg'
+ BufferInactiveMod = 'yellow bg'
+ BufferInactiveSign = 'comment_grey bg'
+ BufferInactiveTarget = 'red bg b'
+
+[StatusLine]
+ StatusLine = 'white black'
+ StatusLineNC = 'black black'
+ StatusLineSeparator = 'black'
+ StatusLineTerm = 'black'
+ StatusLineTermNC = 'black'
+
+[IndentBlankline]
+ IndentBlanklineContextChar = 'comment_grey'
+ IndentBlanklineContextStart = '- - u'
+ IndentBlanklineChar = 'comment_grey'
+ IndentBlanklineSpaceChar = 'cyan'
+ IndentBlanklineSpaceCharBlankline = 'darkyellow'
+
+[Dashboard]
+ DashboardHeader = 'blue'
+ DashboardCenter = 'purple'
+ DashboardFooter = 'cyan'
+
+[Cmp]
+ CmpItemAbbrDeprecated = 'comment_grey - s'
+ CmpItemAbbrMatch = 'blue -'
+ CmpItemAbbrMatchFuzzy = 'cyan -'
+ CmpItemKindFunction = 'purple'
+ CmpItemKindMethod = 'red'
+ CmpItemKindConstructor = 'cyan'
+ CmpItemKindClass = 'cyan'
+ CmpItemKindEnum = 'cyan'
+ CmpItemKindEvent = 'yellow'
+ CmpItemKindInterface = 'red'
+ CmpItemKindStruct = 'cyan'
+ CmpItemKindVariable = '#BA99F6'
+ CmpItemKindField = 'red'
+ CmpItemKindProperty = 'red'
+ CmpItemKindEnumMember = 'darkyellow'
+ CmpItemKindConstant = 'darkyellow'
+ CmpItemKindKeyword = '#e5c07b'
+ CmpItemKindModule = 'cyan'
+ CmpItemKindValue = 'fg'
+ CmpItemKindUnit = 'white'
+ CmpItemKindText = 'green'
+ CmpItemKindSnippet = 'red'
+ CmpItemKindFile = 'fg'
+ CmpItemKindFolder = 'fg'
+ CmpItemKindColor = 'fg'
+ CmpItemKindReference = 'fg'
+ CmpItemKindOperator = 'fg'
+ CmpItemKindTypeParameter = 'red'
+
+# [LspSaga]
+
