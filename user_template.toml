@@ -79,7 +79,7 @@
  QuickFixLine = 'black yellow'
  PmenuSbar = '- cursor_grey'
  PmenuThumb = '- white'
- MatchWord = '- - u'
+ MatchWord = 'blue - u'
  MatchParen = 'blue - u'
  MatchWordCur = '- - u'
  MatchParenCur = '- - u'
@@ -144,7 +144,7 @@
  "@annotation" = 'blue'
  "@identifier" = "red"
  "@attribute" = 'purple'
- "@constructor" = 'red - b'
+ "@constructor" = 'yellow - b'
  "@type" = 'yellow'
  "@type.builtin" = 'darkyellow'
  "@type.definition" = 'link:@type'
@@ -194,7 +194,7 @@
  "@punctuation.delimiter" = "link:Delimiter"
  "@punctuation.bracket" = "white"
  "@punctuation.special" = "purple"
- "@tag" = "yellow"
+ "@tag" = "red"
  "@tag.delimiter" = "white"
  "@tag.attribute" = "darkyellow"
  "@string" = "green"
@@ -349,10 +349,10 @@ xmlTagName = "red"
  StatusLineTermNC = 'black'
 
 [IndentBlankline]
- IndentBlanklineContextChar = 'comment_grey'
- IndentBlanklineContextStart = '- - u'
- IndentBlanklineChar = 'comment_grey'
- IndentBlanklineSpaceChar = 'cyan'
+ IndentBlanklineContextChar = 'purple'
+ IndentBlanklineContextStart = '- -'
+ IndentBlanklineChar = '#3b4048'
+ # IndentBlanklineSpaceChar = ''
  IndentBlanklineSpaceCharBlankline = 'darkyellow'
 
 [Dashboard]
@@ -390,5 +390,26 @@ xmlTagName = "red"
  CmpItemKindOperator = 'fg'
  CmpItemKindTypeParameter = 'red'
 
-# [LspSaga]
-
+[LspSaga]
+TitleString = "bg white"
+TitleSymbol = "black white"
+TitleIcon = "red bg"
+SagaBorder = "link:FloatBorder"
+SagaNormal = "link:Normal"
+SagaExpand = "red"
+SagaCollapse = "red"
+SagaBeacon = "magenta"
+ActionPreviewTitle = "purple black"
+CodeActionText = "yellow"
+CodeActionConceal = "green"
+FinderSelection = "cyan - b"
+FinderFileName = "white"
+FinderIcon = "cyan"
+FinderType = "purple"
+FinderSpinnerTitle = "magenta - b"
+FInderVirtText = "red"
+RenameNomral = "darkyellow black"
+CallHierarchyIcon = "purple"
+CallHierarchyTitle = "red"
+SagaShadow = "- black"
+OutlineIndent = "link:IndentBlanklineContextChar"
