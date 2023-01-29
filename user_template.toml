@@ -290,11 +290,11 @@ xmlTagName = "red"
  DiagnosticError = "red"
  DiagnosticWarn = "yellow"
  DiagnosticInfo = "blue"
- DiagnosticHint = "cyan"
+ DiagnosticHint = "red"
  DiagnosticUnderlineError = "red - u"
  DiagnosticUnderlineWarn = "yellow - u"
  DiagnosticUnderlineInfo = "blue - u"
- DiagnosticUnderlineHint = "cyan - u"
+ DiagnosticUnderlineHint = "red - u"
  LspDiagnosticsDefaultError  = "link:DiagnosticError"
  LspDiagnosticsDefaultWarning ="link:DiagnosticWarn"
  LspDiagnosticsDefaultInformation  = "link:DiagnosticInfo"
@@ -346,13 +346,11 @@ xmlTagName = "red"
  BufferCurrentMod = 'yellow bg'
  BufferCurrentSign = 'blue bg'
  BufferCurrentTarget = 'red bg b'
-
  BufferVisible = 'fg bg'
  BufferVisibleIndex = 'fg bg'
  BufferVisibleMod = 'yellow bg'
  BufferVisibleSign = 'comment_grey bg'
  BufferVisibleTarget = 'red bg b'
-
  BufferInactive = 'comment_grey bg'
  BufferInactiveIndex = 'comment_grey bg'
  BufferInactiveMod = 'yellow bg'
