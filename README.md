@@ -20,7 +20,7 @@
 
 ```lua
   {
-    "Johan-Palacios/onedarker"
+    "Johan-Palacios/onedarker",
     priority = 1000,
     lazy = false,
     config = function()
