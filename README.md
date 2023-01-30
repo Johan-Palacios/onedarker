@@ -42,7 +42,7 @@ cargo install colorgen-nvim
 Create colorscheme
 
 ```bash
-colorgen-nvim user_template.toml
+colorgen-nvim user_template.toml && mv ./onedarker/* .
 
 ```
 
