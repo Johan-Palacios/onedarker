@@ -166,7 +166,7 @@
  "@keyword.operatior" = "link:@operator"
  "@keyword.return" = "link:@keyword"
  "@label" = 'link:Label'
- "@namespace" = 'link:Include'
+ "@namespace" = 'link:StorageClass'
  "@repeat" = 'link:Repeat'
  "@constant" = 'link:Constant'
  "@constant.builtin" = 'link:Special'
