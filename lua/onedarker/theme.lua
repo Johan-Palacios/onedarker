@@ -383,8 +383,8 @@ theme.set_highlights = function()
   hl(0, "rainbowcol6", { fg = c.purple, bg = 'NONE' })
 
   -- Fidget
-  hl(0, "FidgetTitle", { fg = c.green, bg = c.fg })
-  hl(0, "FidgetTask", { fg = c.special_grey, bg = c.fg })
+  hl(0, "FidgetTitle", { fg = c.green, bg = 'NONE' })
+  hl(0, "FidgetTask", { fg = c.special_grey, bg = 'NONE' })
 end
 
 return theme

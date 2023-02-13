@@ -440,5 +440,5 @@ rainbowcol5 = "cyan"
 rainbowcol6 = "purple"
 
 [Fidget]
-FidgetTitle = "green fg"
-FidgetTask = "special_grey fg"
+FidgetTitle = "green -"
+FidgetTask = "special_grey -"
