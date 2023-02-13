@@ -108,7 +108,7 @@
  Number = 'darkyellow'
  Boolean = 'darkyellow'
  Float = 'darkyellow'
- FloatTitle = "fg -"
+ FloatTitle = "fg bg"
  Identifier = 'red'
  Function = 'blue'
  Operator = 'purple'
