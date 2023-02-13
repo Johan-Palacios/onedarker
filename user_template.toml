@@ -108,6 +108,7 @@
  Number = 'darkyellow'
  Boolean = 'darkyellow'
  Float = 'darkyellow'
+ FloatTitle = "bg -"
  Identifier = 'red'
  Function = 'blue'
  Operator = 'purple'
@@ -438,3 +439,6 @@ rainbowcol4 = "blue"
 rainbowcol5 = "cyan"
 rainbowcol6 = "purple"
 
+[Fidget]
+FidgetTitle = "green fg"
+FidgetTask = "special_grey fg"

@@ -66,6 +66,7 @@ theme.set_highlights = function()
   hl(0, "Number", { fg = c.darkyellow, bg = 'NONE' })
   hl(0, "Boolean", { fg = c.darkyellow, bg = 'NONE' })
   hl(0, "Float", { fg = c.darkyellow, bg = 'NONE' })
+  hl(0, "FloatTitle", { fg = c.bg, bg = 'NONE' })
   hl(0, "Identifier", { fg = c.red, bg = 'NONE' })
   hl(0, "Function", { fg = c.blue, bg = 'NONE' })
   hl(0, "Operator", { fg = c.purple, bg = 'NONE' })
@@ -380,6 +381,10 @@ theme.set_highlights = function()
   hl(0, "rainbowcol4", { fg = c.blue, bg = 'NONE' })
   hl(0, "rainbowcol5", { fg = c.cyan, bg = 'NONE' })
   hl(0, "rainbowcol6", { fg = c.purple, bg = 'NONE' })
+
+  -- Fidget
+  hl(0, "FidgetTitle", { fg = c.green, bg = c.fg })
+  hl(0, "FidgetTask", { fg = c.special_grey, bg = c.fg })
 end
 
 return theme
