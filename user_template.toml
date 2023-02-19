@@ -442,3 +442,15 @@ rainbowcol6 = "purple"
 [Fidget]
 FidgetTitle = "green -"
 FidgetTask = "special_grey -"
+
+# Languaje
+
+[java]
+"@type.qualifier.java" = "purple"
+"@type.java" = "yellow"
+"@variable.java" = "red"
+"@variable.builtin.java" = "yellow"
+
+[lua]
+"@constant.lua" = "yellow"
+

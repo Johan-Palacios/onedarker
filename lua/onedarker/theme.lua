@@ -385,6 +385,15 @@ theme.set_highlights = function()
   -- Fidget
   hl(0, "FidgetTitle", { fg = c.green, bg = 'NONE' })
   hl(0, "FidgetTask", { fg = c.special_grey, bg = 'NONE' })
+
+  -- java
+  hl(0, "@type.qualifier.java", { fg = c.purple, bg = 'NONE' })
+  hl(0, "@type.java", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "@variable.java", { fg = c.red, bg = 'NONE' })
+  hl(0, "@variable.builtin.java", { fg = c.yellow, bg = 'NONE' })
+
+  -- lua
+  hl(0, "@constant.lua", { fg = c.yellow, bg = 'NONE' })
 end
 
 return theme
