@@ -129,6 +129,7 @@
  PreCondit = 'yellow'
  Special = 'blue'
  SpecialChar = 'darkyellow'
+ Conceal = "white -"
  Tag = '- -'
  Debug = '- -'
  Delimiter = '- -'
