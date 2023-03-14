@@ -274,8 +274,8 @@ theme.set_highlights = function()
   hl(0, "NvimTreeImageFile", { fg = c.purple, bg = 'NONE' })
   hl(0, "NvimTreeSpecialFile", { fg = c.darkyellow, bg = 'NONE' })
   hl(0, "NvimTreeEndOfBuffer", { fg = c.comment_grey, bg = 'NONE' })
-  hl(0, "NvimTreeCursorLine", { fg = 'NONE', bg = '#282b37' })
-  hl(0, "NvimTreeGitignoreIcon", { fg = '#E64A19', bg = 'NONE' })
+  hl(0, "NvimTreeCursorLine", { fg = 'NONE', bg = c.bg })
+  hl(0, "NvimTreeGitignoreIcon", { fg = c.red, bg = 'NONE' })
   hl(0, "NvimTreeGitStaged", { link = 'SignAdd' })
   hl(0, "NvimTreeGitNew", { link = 'SignChange' })
   hl(0, "NvimTreeGitRenamed", { link = 'SignChange' })
@@ -395,6 +395,7 @@ theme.set_highlights = function()
 
   -- lua
   hl(0, "@constant.lua", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "@variable.builtin.lua", { fg = c.yellow, bg = 'NONE' })
 end
 
 return theme
