@@ -383,7 +383,7 @@ CmpItemKindClass = 'yellow'
 CmpItemKindEnum = 'darkyellow'
 CmpItemKindEvent = 'cyan'
 CmpItemKindStruct = 'cyan'
-CmpItemKindField = 'red'
+CmpItemKindField = 'blue'
 CmpItemKindEnumMember = 'darkyellow'
 CmpItemKindConstant = 'darkyellow'
 CmpItemKindModule = 'cyan'
@@ -393,7 +393,7 @@ CmpItemKindFolder = 'blue'
 CmpItemKindColor = 'fg'
 CmpItemKindReference = 'fg'
 CmpItemKindOperator = 'fg'
-CmpItemKindTypeParameter = 'red'
+CmpItemKindTypeParameter = 'yellow'
 
 [LspSaga]
 TitleString = "white black"
