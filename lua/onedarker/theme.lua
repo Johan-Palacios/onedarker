@@ -246,11 +246,11 @@ theme.set_highlights = function()
   hl(0, "DiagnosticError", { fg = c.red, bg = 'NONE' })
   hl(0, "DiagnosticWarn", { fg = c.yellow, bg = 'NONE' })
   hl(0, "DiagnosticInfo", { fg = c.blue, bg = 'NONE' })
-  hl(0, "DiagnosticHint", { fg = c.red, bg = 'NONE' })
+  hl(0, "DiagnosticHint", { fg = c.purple, bg = 'NONE' })
   hl(0, "DiagnosticUnderlineError", { fg = c.red, bg = 'NONE', underline=true, })
   hl(0, "DiagnosticUnderlineWarn", { fg = c.yellow, bg = 'NONE', underline=true, })
   hl(0, "DiagnosticUnderlineInfo", { fg = c.blue, bg = 'NONE', underline=true, })
-  hl(0, "DiagnosticUnderlineHint", { fg = c.red, bg = 'NONE', underline=true, })
+  hl(0, "DiagnosticUnderlineHint", { fg = c.graylens, bg = 'NONE', underline=true, })
   hl(0, "LspDiagnosticsDefaultError", { link = 'DiagnosticError' })
   hl(0, "LspDiagnosticsDefaultWarning", { link = 'DiagnosticWarn' })
   hl(0, "LspDiagnosticsDefaultInformation", { link = 'DiagnosticInfo' })
@@ -369,7 +369,7 @@ theme.set_highlights = function()
   hl(0, "FinderType", { fg = c.purple, bg = 'NONE' })
   hl(0, "FinderSpinnerTitle", { fg = c.magenta, bg = 'NONE', bold=true, })
   hl(0, "FInderVirtText", { fg = c.red, bg = 'NONE' })
-  hl(0, "RenameNomral", { fg = c.darkyellow, bg = c.black })
+  hl(0, "RenameNormal", { fg = c.darkyellow, bg = c.black })
   hl(0, "CallHierarchyIcon", { fg = c.purple, bg = 'NONE' })
   hl(0, "CallHierarchyTitle", { fg = c.red, bg = 'NONE' })
   hl(0, "SagaShadow", { fg = 'NONE', bg = c.black })
@@ -396,6 +396,9 @@ theme.set_highlights = function()
   -- lua
   hl(0, "@constant.lua", { fg = c.yellow, bg = 'NONE' })
   hl(0, "@variable.builtin.lua", { fg = c.yellow, bg = 'NONE' })
+
+  -- python
+  hl(0, "@variable.builtin.python", { fg = c.darkyellow, bg = 'NONE' })
 end
 
 return theme
