@@ -40,9 +40,6 @@ sign_delete = "#e06c75"
 # Telescope
 telescope_prev = "#282c34"
 
-# CMP
-variable_cmp = "#BA99F6"
-
 [highlights]
 Normal = 'fg bg'
 SignColumn = '- -'
@@ -402,7 +399,7 @@ CmpItemKindEnum = 'cyan'
 CmpItemKindEvent = 'yellow'
 CmpItemKindInterface = 'cyan'
 CmpItemKindStruct = 'cyan'
-CmpItemKindVariable = 'red'
+CmpItemKindVariable = 'blue'
 CmpItemKindField = 'red'
 CmpItemKindProperty = 'red'
 CmpItemKindEnumMember = 'darkyellow'

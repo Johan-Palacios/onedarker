@@ -30,7 +30,6 @@ local colors = {
   sign_change = "#e5c07b",
   sign_delete = "#e06c75",
   telescope_prev = "#282c34",
-  variable_cmp = "#BA99F6",
 }
 
 return colors
