@@ -456,6 +456,38 @@ rainbowcol6 = "purple"
 FidgetTitle = "green -"
 FidgetTask = "special_grey -"
 
+[Navic]
+NavicIconsFile = 'fg'
+NavicIconsModule = 'cyan'
+NavicIconsNamespace = 'fg'
+NavicIconsPackage = 'fg'
+NavicIconsClass = 'cyan'
+NavicIconsMethod = 'blue'
+NavicIconsProperty = 'red'
+NavicIconsField = 'red'
+NavicIconsConstructor = 'cyan'
+NavicIconsEnum = 'cyan'
+NavicIconsInterface = 'cyan'
+NavicIconsFunction = 'blue'
+NavicIconsVariable = 'red'
+NavicIconsConstant = 'darkyellow'
+NavicIconsString = 'green'
+NavicIconsNumber = 'darkyellow'
+NavicIconsBoolean = 'darkyellow'
+NavicIconsArray = 'cyan'
+NavicIconsObject = 'cyan'
+NavicIconsKey = 'purple'
+NavicIconsKeyword = 'purple'
+NavicIconsNull = 'darkyellow'
+NavicIconsEnumMember = 'darkyellow'
+NavicIconsStruct = 'cyan'
+NavicIconsEvent = 'yellow'
+NavicIconsOperator = 'fg'
+NavicIconsTypeParameter = 'red'
+NavicText = 'comment_grey'
+NavicSeparator = 'comment_grey'
+
+
 # Languaje
 
 [java]
