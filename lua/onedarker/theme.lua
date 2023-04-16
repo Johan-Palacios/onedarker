@@ -412,8 +412,8 @@ theme.set_highlights = function()
   hl(0, "NavicIconsEvent", { fg = c.yellow, bg = 'NONE' })
   hl(0, "NavicIconsOperator", { fg = c.fg, bg = 'NONE' })
   hl(0, "NavicIconsTypeParameter", { fg = c.red, bg = 'NONE' })
-  hl(0, "NavicText", { fg = c.comment_grey, bg = 'NONE' })
-  hl(0, "NavicSeparator", { fg = c.comment_grey, bg = 'NONE' })
+  hl(0, "NavicText", { fg = c.white, bg = 'NONE' })
+  hl(0, "NavicSeparator", { fg = c.white, bg = 'NONE' })
 
   -- java
   hl(0, "@type.qualifier.java", { fg = c.purple, bg = 'NONE' })

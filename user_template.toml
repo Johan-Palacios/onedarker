@@ -484,8 +484,8 @@ NavicIconsStruct = 'cyan'
 NavicIconsEvent = 'yellow'
 NavicIconsOperator = 'fg'
 NavicIconsTypeParameter = 'red'
-NavicText = 'comment_grey'
-NavicSeparator = 'comment_grey'
+NavicText = 'white'
+NavicSeparator = 'white'
 
 
 # Languaje
