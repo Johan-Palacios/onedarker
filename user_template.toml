@@ -484,6 +484,8 @@ NavicSeparator = 'white'
 "@type.java" = "yellow"
 "@variable.java" = "red"
 "@variable.builtin.java" = "yellow"
+"@function.builtin.java" = "yellow"
+"@type.builtin.java" = "purple"
 
 [lua]
 "@constant.lua" = "yellow"

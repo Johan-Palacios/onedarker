@@ -423,6 +423,8 @@ theme.set_highlights = function()
   hl(0, "@type.java", { fg = c.yellow, bg = 'NONE' })
   hl(0, "@variable.java", { fg = c.red, bg = 'NONE' })
   hl(0, "@variable.builtin.java", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "@function.builtin.java", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "@type.builtin.java", { fg = c.purple, bg = 'NONE' })
 
   -- lua
   hl(0, "@constant.lua", { fg = c.yellow, bg = 'NONE' })
