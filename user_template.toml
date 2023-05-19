@@ -41,15 +41,14 @@ sign_delete = "#e06c75"
 telescope_prev = "#282c34"
 
 # Lsp
-error = '#db4b4b'
-warn = '#eeaf58'
+error = '#E06C75'
+warn = '#e5c07b'
 info = '#1cbc9b'
 hint = '#4bc1fe'
 error_bg = '#31262d'
 warn_bg = '#32302f'
 info_bg = '#1e3135'
 hint_bg = '#22323f'
-
 reference = '#2e303b'
 
 
@@ -69,7 +68,7 @@ PmenuSel = 'black blue'
 WildMenu = 'black blue'
 Cursor = "background blue"
 CursorLineNr = '- - b'
-Comment = 'comment_grey -'
+Comment = 'comment_grey - i'
 Folded = 'comment_grey'
 FoldColumn = '-'
 VertSplit = 'vertsplit'
