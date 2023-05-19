@@ -243,34 +243,6 @@ healthWarning = "yellow"
 "@variable" = "link:Variable"
 "@variable.builtin" = "link:Special"
 
-[markdown]
-markdownBlockquote = 'darkyellow'
-markdownCode = 'darkyellow'
-markdownCodeBlock = 'darkyellow'
-markdownCodeDelimiter = 'darkyellow'
-markdownH1 = 'blue'
-markdownH2 = 'blue'
-markdownH3 = 'blue'
-markdownH4 = 'blue'
-markdownH5 = 'blue'
-markdownH6 = 'blue'
-markdownHeadingDelimiter = 'blue'
-markdownHeadingRule = 'fg - b'
-markdownId = 'purple'
-markdownIdDeclaration = 'blue'
-markdownIdDelimiter = 'comment_grey'
-markdownLinkDelimiter = 'comment_grey'
-markdownBold = 'blue - b'
-markdownItalic = '- - i'
-markdownBoldItalic = 'yellow - bi'
-markdownListMarker = 'blue'
-markdownOrderedListMarker = 'blue'
-markdownRule = 'comment_grey'
-markdownUrl = 'cyan - u'
-markdownLinkText = 'blue'
-markdownFootnote = 'darkyellow'
-markdownFootnoteDefinition = 'darkyellow'
-markdownEscape = 'yellow'
 
 [XML]
 xmlAttrib = "darkyellow"
@@ -373,6 +345,22 @@ LspReferenceWrite = '- reference'
 
 LspCodeLens = 'graylens - i'
 LspCodeLensSeparator = 'graylens - i'
+# Semantic tockens
+
+'@lsp.type.comment' = 'link:Comment'
+'@lsp.type.enum' = 'link:Type'
+'@lsp.type.interface' = 'link:Identifier'
+'@lsp.type.keyword' = 'link:Keyword'
+'@lsp.type.namespace' = 'link:@namespace'
+'@lsp.type.parameter' = 'link:@parameter'
+'@lsp.type.property' = 'link:@property'
+'@lsp.type.variable' = 'link:@variable'
+'@lsp.typemod.method.defaultLibrary' = 'link:@function.builtin'
+'@lsp.typemod.function.defaultLibrary' = 'link:@function.builtin'
+'@lsp.typemod.variable.defaultLibrary' = 'link:@variable.builtin'
+'@lsp.typemod.operator.injected' = 'link:@operator'
+'@lsp.typemod.string.injected' = 'link:@string'
+'@lsp.typemod.variable.injected' = 'link:@variable'
 
 [Illuminate]
 IlluminatedWordWrite = "- menu_grey"
@@ -491,8 +479,8 @@ OutlineIndent = "link:IndentBlanklineContextChar"
 [TSRainbow]
 rainbowcol1 = "darkyellow"
 rainbowcol2 = "purple"
-rainbowcol3 = "red"
-rainbowcol4 = "blue"
+rainbowcol3 = "blue"
+rainbowcol4 = "red"
 rainbowcol5 = "cyan"
 rainbowcol6 = "purple"
 
@@ -549,6 +537,18 @@ NotifyINFOTitle = 'ui4_blue'
 NotifyDEBUGTitle = 'comment_grey'
 NotifyTRACETitle = 'ui_purple'
 
+[Lazy]
+LazyButton = 'fg bg'
+LazyButtonActive = 'fg comment_grey'
+LazyComment = 'link:Comment'
+LazyCommit = 'darkyellow'
+LazyCommitIssue = 'blue'
+LazyH1 = "blue bg b"
+LazyReasonStart = "cyan"
+LazySpecial = "blue"
+LazyUrl = 'blue'
+LazyValue = 'cyan'
+
 
 # Languaje
 
@@ -560,9 +560,22 @@ NotifyTRACETitle = 'ui_purple'
 "@function.builtin.java" = "yellow"
 "@type.builtin.java" = "purple"
 
+[javascript]
+"@variable.builtin.javascript" = "yellow"
+
 [lua]
 "@constant.lua" = "yellow"
 "@variable.builtin.lua" = "yellow"
 
 [python]
 "@variable.builtin.python" = "darkyellow"
+
+[Markdown]
+'@text.reference.markdown_inline' = 'blue'
+'@text.uri.markdown_inline' = 'blue - u'
+'@text.title.markdown' = 'fg - b'
+'@punctuation.special.markdown' = 'comment_grey'
+'@text.reference.markdown' = 'blue'
+'@lsp.type.class.markdown' = 'blue'
+'@text.literal.markdown_inline' = 'darkyellow'
+'@text.literal.markdown' = 'darkyellow'

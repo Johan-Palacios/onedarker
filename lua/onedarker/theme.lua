@@ -182,35 +182,6 @@ theme.set_highlights = function()
   hl(0, "@variable", { link = 'Variable' })
   hl(0, "@variable.builtin", { link = 'Special' })
 
-  -- markdown
-  hl(0, "markdownBlockquote", { fg = c.darkyellow, bg = 'NONE' })
-  hl(0, "markdownCode", { fg = c.darkyellow, bg = 'NONE' })
-  hl(0, "markdownCodeBlock", { fg = c.darkyellow, bg = 'NONE' })
-  hl(0, "markdownCodeDelimiter", { fg = c.darkyellow, bg = 'NONE' })
-  hl(0, "markdownH1", { fg = c.blue, bg = 'NONE' })
-  hl(0, "markdownH2", { fg = c.blue, bg = 'NONE' })
-  hl(0, "markdownH3", { fg = c.blue, bg = 'NONE' })
-  hl(0, "markdownH4", { fg = c.blue, bg = 'NONE' })
-  hl(0, "markdownH5", { fg = c.blue, bg = 'NONE' })
-  hl(0, "markdownH6", { fg = c.blue, bg = 'NONE' })
-  hl(0, "markdownHeadingDelimiter", { fg = c.blue, bg = 'NONE' })
-  hl(0, "markdownHeadingRule", { fg = c.fg, bg = 'NONE', bold=true, })
-  hl(0, "markdownId", { fg = c.purple, bg = 'NONE' })
-  hl(0, "markdownIdDeclaration", { fg = c.blue, bg = 'NONE' })
-  hl(0, "markdownIdDelimiter", { fg = c.comment_grey, bg = 'NONE' })
-  hl(0, "markdownLinkDelimiter", { fg = c.comment_grey, bg = 'NONE' })
-  hl(0, "markdownBold", { fg = c.blue, bg = 'NONE', bold=true, })
-  hl(0, "markdownItalic", { fg = 'NONE', bg = 'NONE', italic=true, })
-  hl(0, "markdownBoldItalic", { fg = c.yellow, bg = 'NONE', bold=true, italic=true, })
-  hl(0, "markdownListMarker", { fg = c.blue, bg = 'NONE' })
-  hl(0, "markdownOrderedListMarker", { fg = c.blue, bg = 'NONE' })
-  hl(0, "markdownRule", { fg = c.comment_grey, bg = 'NONE' })
-  hl(0, "markdownUrl", { fg = c.cyan, bg = 'NONE', underline=true, })
-  hl(0, "markdownLinkText", { fg = c.blue, bg = 'NONE' })
-  hl(0, "markdownFootnote", { fg = c.darkyellow, bg = 'NONE' })
-  hl(0, "markdownFootnoteDefinition", { fg = c.darkyellow, bg = 'NONE' })
-  hl(0, "markdownEscape", { fg = c.yellow, bg = 'NONE' })
-
   -- XML
   hl(0, "xmlAttrib", { fg = c.darkyellow, bg = 'NONE' })
   hl(0, "xmlEndTag", { fg = c.red, bg = 'NONE' })
@@ -307,6 +278,20 @@ theme.set_highlights = function()
   hl(0, "LspReferenceWrite", { fg = 'NONE', bg = c.reference })
   hl(0, "LspCodeLens", { fg = c.graylens, bg = 'NONE', italic=true, })
   hl(0, "LspCodeLensSeparator", { fg = c.graylens, bg = 'NONE', italic=true, })
+  hl(0, "@lsp.type.comment", { link = 'Comment' })
+  hl(0, "@lsp.type.enum", { link = 'Type' })
+  hl(0, "@lsp.type.interface", { link = 'Identifier' })
+  hl(0, "@lsp.type.keyword", { link = 'Keyword' })
+  hl(0, "@lsp.type.namespace", { link = '@namespace' })
+  hl(0, "@lsp.type.parameter", { link = '@parameter' })
+  hl(0, "@lsp.type.property", { link = '@property' })
+  hl(0, "@lsp.type.variable", { link = '@variable' })
+  hl(0, "@lsp.typemod.method.defaultLibrary", { link = '@function.builtin' })
+  hl(0, "@lsp.typemod.function.defaultLibrary", { link = '@function.builtin' })
+  hl(0, "@lsp.typemod.variable.defaultLibrary", { link = '@variable.builtin' })
+  hl(0, "@lsp.typemod.operator.injected", { link = '@operator' })
+  hl(0, "@lsp.typemod.string.injected", { link = '@string' })
+  hl(0, "@lsp.typemod.variable.injected", { link = '@variable' })
 
   -- Illuminate
   hl(0, "IlluminatedWordWrite", { fg = 'NONE', bg = c.menu_grey })
@@ -424,8 +409,8 @@ theme.set_highlights = function()
   -- TSRainbow
   hl(0, "rainbowcol1", { fg = c.darkyellow, bg = 'NONE' })
   hl(0, "rainbowcol2", { fg = c.purple, bg = 'NONE' })
-  hl(0, "rainbowcol3", { fg = c.red, bg = 'NONE' })
-  hl(0, "rainbowcol4", { fg = c.blue, bg = 'NONE' })
+  hl(0, "rainbowcol3", { fg = c.blue, bg = 'NONE' })
+  hl(0, "rainbowcol4", { fg = c.red, bg = 'NONE' })
   hl(0, "rainbowcol5", { fg = c.cyan, bg = 'NONE' })
   hl(0, "rainbowcol6", { fg = c.purple, bg = 'NONE' })
 
@@ -481,6 +466,18 @@ theme.set_highlights = function()
   hl(0, "NotifyDEBUGTitle", { fg = c.comment_grey, bg = 'NONE' })
   hl(0, "NotifyTRACETitle", { fg = c.ui_purple, bg = 'NONE' })
 
+  -- Lazy
+  hl(0, "LazyButton", { fg = c.fg, bg = c.bg })
+  hl(0, "LazyButtonActive", { fg = c.fg, bg = c.comment_grey })
+  hl(0, "LazyComment", { link = 'Comment' })
+  hl(0, "LazyCommit", { fg = c.darkyellow, bg = 'NONE' })
+  hl(0, "LazyCommitIssue", { fg = c.blue, bg = 'NONE' })
+  hl(0, "LazyH1", { fg = c.blue, bg = c.bg, bold=true, })
+  hl(0, "LazyReasonStart", { fg = c.cyan, bg = 'NONE' })
+  hl(0, "LazySpecial", { fg = c.blue, bg = 'NONE' })
+  hl(0, "LazyUrl", { fg = c.blue, bg = 'NONE' })
+  hl(0, "LazyValue", { fg = c.cyan, bg = 'NONE' })
+
   -- java
   hl(0, "@type.qualifier.java", { fg = c.purple, bg = 'NONE' })
   hl(0, "@type.java", { fg = c.yellow, bg = 'NONE' })
@@ -489,12 +486,25 @@ theme.set_highlights = function()
   hl(0, "@function.builtin.java", { fg = c.yellow, bg = 'NONE' })
   hl(0, "@type.builtin.java", { fg = c.purple, bg = 'NONE' })
 
+  -- javascript
+  hl(0, "@variable.builtin.javascript", { fg = c.yellow, bg = 'NONE' })
+
   -- lua
   hl(0, "@constant.lua", { fg = c.yellow, bg = 'NONE' })
   hl(0, "@variable.builtin.lua", { fg = c.yellow, bg = 'NONE' })
 
   -- python
   hl(0, "@variable.builtin.python", { fg = c.darkyellow, bg = 'NONE' })
+
+  -- Markdown
+  hl(0, "@text.reference.markdown_inline", { fg = c.blue, bg = 'NONE' })
+  hl(0, "@text.uri.markdown_inline", { fg = c.blue, bg = 'NONE', underline=true, })
+  hl(0, "@text.title.markdown", { fg = c.fg, bg = 'NONE', bold=true, })
+  hl(0, "@punctuation.special.markdown", { fg = c.comment_grey, bg = 'NONE' })
+  hl(0, "@text.reference.markdown", { fg = c.blue, bg = 'NONE' })
+  hl(0, "@lsp.type.class.markdown", { fg = c.blue, bg = 'NONE' })
+  hl(0, "@text.literal.markdown_inline", { fg = c.darkyellow, bg = 'NONE' })
+  hl(0, "@text.literal.markdown", { fg = c.darkyellow, bg = 'NONE' })
 end
 
 return theme
