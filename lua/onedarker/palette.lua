@@ -57,7 +57,7 @@ local colors = {
   ui2_orange = "#613214",
   ui_purple = "#B180D7",
   visual = "#42566f",
-  folder_bg = "#61afef",
+  folder = "#61afef",
 }
 
 return colors

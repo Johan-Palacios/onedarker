@@ -73,7 +73,7 @@ visual = "#42566f"
 
 
 # Folder
-folder_bg = "#61afef"
+folder = "#61afef"
 
 
 [highlights]
@@ -359,6 +359,7 @@ LspReferenceWrite = '- reference'
 
 LspCodeLens = 'graylens - i'
 LspCodeLensSeparator = 'graylens - i'
+
 # Semantic tockens
 
 '@lsp.type.comment' = 'link:Comment'
@@ -382,23 +383,27 @@ IlluminatedWordRead = "- menu_grey"
 IlluminatedWordText = "- menu_grey"
 
 [NvimTree]
-NvimTreeFolderIcon = 'blue'
+NvimTreeFolderIcon = 'link:Directory'
+NvimTreeIndentMarker = 'alt_fg'
+NvimTreeNormal = 'fg alt_bg'
+NvimTreeWinSeparator = 'alt_bg alt_bg'
+NvimTreeFolderName = 'link:Directory'
+NvimTreeOpenedFolderName = 'folder - bi'
 NvimTreeEmptyFolderName = 'comment_grey - i'
 NvimTreeGitIgnored = 'comment_grey - i'
-NvimTreeImageFile = 'purple'
+NvimTreeImageFile = 'magenta'
 NvimTreeSpecialFile = 'darkyellow'
-NvimTreeEndOfBuffer = 'comment_grey'
-NvimTreeCursorLine = '- bg'
-NvimTreeGitignoreIcon = 'red'
-NvimTreeGitStaged = 'link:SignAdd'
-NvimTreeGitNew = 'link:SignChange'
-NvimTreeGitRenamed = 'link:SignChange'
-NvimTreeGitDeleted = 'link:SignDelete'
-NvimTreeGitMerge = 'link:SignChange'
-NvimTreeGitDirty = 'link:SignChange'
+NvimTreeEndOfBuffer = 'alt_bg'
+NvimTreeCursorLine = '- #2C313A'
+NvimTreeGitStaged = 'sign_add'
+NvimTreeGitNew = 'sign_add'
+NvimTreeGitRenamed = 'sign_add'
+NvimTreeGitDeleted = 'sign_delete'
+NvimTreeGitMerge = 'sign_change'
+NvimTreeGitDirty = 'sign_change'
 NvimTreeSymlink = 'cyan'
 NvimTreeRootFolder = 'fg - b'
-NvimTreeExecFile = '#9FBA89'
+NvimTreeExecFile = 'green'
 
 [Buffer]
 BufferCurrent = 'fg bg'
