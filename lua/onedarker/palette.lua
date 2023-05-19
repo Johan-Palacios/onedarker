@@ -1,14 +1,23 @@
 local colors = {
   fg = "#ABB2BF",
   bg = "#1e2127",
+  alt_fg = "#9CA5B4",
+  alt_bg = "#21252A",
   red = "#E06C75",
   darkred = "#be5046",
   green = "#98c379",
+  vibrant_green = "#7eca9c",
   yellow = "#E5C07B",
   darkyellow = "#d19a66",
+  sun = "#EBCB8B",
   blue = "#61afef",
   purple = "#C678DD",
+  dark_purple = "#c882e7",
+  baby_pink = "#DE8C92",
+  pink = "#ff75a0",
+  line = "#31353d",
   cyan = "#56b6c2",
+  teal = "#519ABA",
   white = "#abb2bf",
   black = "#1e2127",
   foreground = "#ABB2BF",
@@ -47,6 +56,7 @@ local colors = {
   ui_orange = "#E8AB53",
   ui2_orange = "#613214",
   ui_purple = "#B180D7",
+  folder_bg = "#61afef",
 }
 
 return colors
