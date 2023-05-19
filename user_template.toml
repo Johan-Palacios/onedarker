@@ -51,6 +51,16 @@ info_bg = '#1e3135'
 hint_bg = '#22323f'
 reference = '#2e303b'
 
+#UI
+ui_blue = '#264F78'
+ui2_blue = '#042E48'
+ui3_blue = '#0195F7'
+ui4_blue = '#75BEFF'
+ui5_blue = '#083C5A'
+ui_orange = '#E8AB53'
+ui2_orange = '#613214'
+ui_purple = '#B180D7'
+
 
 [highlights]
 Normal = 'fg bg'
@@ -520,6 +530,24 @@ NavicIconsOperator = 'fg'
 NavicIconsTypeParameter = 'red'
 NavicText = 'white'
 NavicSeparator = 'white'
+
+
+[Notify]
+NotifyERRORBorder = '#8A1F1F'
+NotifyWARNBorder = '#79491D'
+NotifyINFOBorder = 'ui_blue'
+NotifyDEBUGBorder = 'comment_grey'
+NotifyTRACEBorder = '#4F3552'
+NotifyERRORIcon = 'error'
+NotifyWARNIcon = 'warn'
+NotifyINFOIcon = 'ui4_blue'
+NotifyDEBUGIcon = 'comment_grey'
+NotifyTRACEIcon = 'ui_purple'
+NotifyERRORTitle = 'error'
+NotifyWARNTitle = 'warn'
+NotifyINFOTitle = 'ui4_blue'
+NotifyDEBUGTitle = 'comment_grey'
+NotifyTRACETitle = 'ui_purple'
 
 
 # Languaje

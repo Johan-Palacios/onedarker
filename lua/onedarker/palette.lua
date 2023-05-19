@@ -39,6 +39,14 @@ local colors = {
   info_bg = "#1e3135",
   hint_bg = "#22323f",
   reference = "#2e303b",
+  ui_blue = "#264F78",
+  ui2_blue = "#042E48",
+  ui3_blue = "#0195F7",
+  ui4_blue = "#75BEFF",
+  ui5_blue = "#083C5A",
+  ui_orange = "#E8AB53",
+  ui2_orange = "#613214",
+  ui_purple = "#B180D7",
 }
 
 return colors
