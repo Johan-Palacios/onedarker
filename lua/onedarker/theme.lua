@@ -353,9 +353,9 @@ theme.set_highlights = function()
 
   -- IndentBlankline
   hl(0, "IndentBlanklineContextChar", { fg = c.purple, bg = 'NONE' })
-  hl(0, "IndentBlanklineContextStart", { fg = 'NONE', bg = 'NONE' })
   hl(0, "IndentBlanklineChar", { fg = '#3b4048', bg = 'NONE' })
   hl(0, "IndentBlanklineSpaceCharBlankline", { fg = c.darkyellow, bg = 'NONE' })
+  hl(0, "IndentBlanklineContextStart", { fg = 'NONE', bg = 'NONE', underline=true, })
 
   -- Dashboard
   hl(0, "DashboardHeader", { fg = c.blue, bg = 'NONE' })
