@@ -41,7 +41,7 @@ sign_delete = "#e06c75"
 telescope_prev = "#282c34"
 
 # Lsp
-error = '#E06C75'
+error = '#be5046'
 warn = '#e5c07b'
 info = '#1cbc9b'
 hint = '#4bc1fe'
