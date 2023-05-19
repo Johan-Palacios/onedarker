@@ -69,6 +69,7 @@ ui5_blue = '#083C5A'
 ui_orange = '#E8AB53'
 ui2_orange = '#613214'
 ui_purple = '#B180D7'
+visual = "#42566f"
 
 
 # Folder
@@ -127,8 +128,8 @@ Directory = 'blue'
 SpecialKey = 'special_grey - b'
 Title = 'green - b'
 ErrorMsg = 'red'
-Search = 'yellow special_grey'
-IncSearch = 'yellow comment_grey'
+Search = '- visual'
+IncSearch = '- #55799E'
 Substitute = 'link:Search'
 MoreMsg = '- -'
 Question = 'purple'
