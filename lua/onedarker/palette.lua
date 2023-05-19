@@ -30,6 +30,15 @@ local colors = {
   sign_change = "#e5c07b",
   sign_delete = "#e06c75",
   telescope_prev = "#282c34",
+  error = "#db4b4b",
+  warn = "#eeaf58",
+  info = "#1cbc9b",
+  hint = "#4bc1fe",
+  error_bg = "#31262d",
+  warn_bg = "#32302f",
+  info_bg = "#1e3135",
+  hint_bg = "#22323f",
+  reference = "#2e303b",
 }
 
 return colors

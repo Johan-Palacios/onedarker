@@ -40,6 +40,19 @@ sign_delete = "#e06c75"
 # Telescope
 telescope_prev = "#282c34"
 
+# Lsp
+error = '#db4b4b'
+warn = '#eeaf58'
+info = '#1cbc9b'
+hint = '#4bc1fe'
+error_bg = '#31262d'
+warn_bg = '#32302f'
+info_bg = '#1e3135'
+hint_bg = '#22323f'
+
+reference = '#2e303b'
+
+
 [highlights]
 Normal = 'fg bg'
 SignColumn = '- -'
@@ -282,22 +295,73 @@ GitSignsChange = 'link:SignChange'
 GitSignsDelete = 'link:SignDelete'
 
 [LSP]
-DiagnosticError = "red"
-DiagnosticWarn = "yellow"
-DiagnosticInfo = "blue"
-DiagnosticHint = "purple"
-DiagnosticUnderlineError = "red - u"
-DiagnosticUnderlineWarn = "yellow - u"
-DiagnosticUnderlineInfo = "blue - u"
-DiagnosticUnderlineHint = "graylens - u"
-LspDiagnosticsDefaultError = "link:DiagnosticError"
-LspDiagnosticsDefaultWarning = "link:DiagnosticWarn"
-LspDiagnosticsDefaultInformation = "link:DiagnosticInfo"
-LspDiagnosticsDefaultHint = "link:DiagnosticHint"
-LspDiagnosticsUnderlineError = "link:DiagnosticUnderlineError"
-LspDiagnosticsUnderlineWarning = "link:DiagnosticUnderlineWarn"
-LspDiagnosticsUnderlineInformation = "link:DiagnosticUnderlineInfo"
-LspDiagnosticsUnderlineHint = "link:DiagnosticUnderlineHint"
+DiagnosticHint = 'hint'
+DiagnosticInfo = 'info'
+DiagnosticWarn = 'warn'
+DiagnosticError = 'error'
+DiagnosticOther = 'purple'
+DiagnosticSignHint = 'link:DiagnosticHint'
+DiagnosticSignInfo = 'link:DiagnosticInfo'
+DiagnosticSignWarn = 'link:DiagnosticWarn'
+DiagnosticSignError = 'link:DiagnosticError'
+DiagnosticSignOther = 'link:DiagnosticOther'
+DiagnosticSignWarning = 'link:DiagnosticWarn'
+DiagnosticFloatingHint = 'link:DiagnosticHint'
+DiagnosticFloatingInfo = 'link:DiagnosticInfo'
+DiagnosticFloatingWarn = 'link:DiagnosticWarn'
+DiagnosticFloatingError = 'link:DiagnosticError'
+DiagnosticUnderlineHint = '- - c hint'
+DiagnosticUnderlineInfo = '- - c info'
+DiagnosticUnderlineWarn = '- - c warn'
+DiagnosticUnderlineError = '- - c error'
+DiagnosticSignInformation = 'link:DiagnosticInfo'
+DiagnosticVirtualTextHint = 'hint hint_bg'
+DiagnosticVirtualTextInfo = 'info info_bg'
+DiagnosticVirtualTextWarn = 'warn warn_bg'
+DiagnosticVirtualTextError = 'error error_bg'
+
+LspDiagnosticsError = 'error'
+LspDiagnosticsWarning = 'warn'
+LspDiagnosticsInfo = 'info'
+LspDiagnosticsInformation = 'link:LspDiagnosticsInfo'
+LspDiagnosticsHint = 'hint'
+LspDiagnosticsDefaultError = 'link:LspDiagnosticsError'
+LspDiagnosticsDefaultWarning = 'link:LspDiagnosticsWarning'
+LspDiagnosticsDefaultInformation = 'link:LspDiagnosticsInfo'
+LspDiagnosticsDefaultInfo = 'link:LspDiagnosticsInfo'
+LspDiagnosticsDefaultHint = 'link:LspDiagnosticsHint'
+LspDiagnosticsVirtualTextError = 'link:DiagnosticVirtualTextError'
+LspDiagnosticsVirtualTextWarning = 'link:DiagnosticVirtualTextWarn'
+LspDiagnosticsVirtualTextInformation = 'link:DiagnosticVirtualTextInfo'
+LspDiagnosticsVirtualTextInfo = 'link:DiagnosticVirtualTextInfo'
+LspDiagnosticsVirtualTextHint = 'link:DiagnosticVirtualTextHint'
+LspDiagnosticsFloatingError = 'link:LspDiagnosticsError'
+LspDiagnosticsFloatingWarning = 'link:LspDiagnosticsWarning'
+LspDiagnosticsFloatingInformation = 'link:LspDiagnosticsInfo'
+LspDiagnosticsFloatingInfo = 'link:LspDiagnosticsInfo'
+LspDiagnosticsFloatingHint = 'link:LspDiagnosticsHint'
+LspDiagnosticsSignError = 'link:LspDiagnosticsError'
+LspDiagnosticsSignWarning = 'link:LspDiagnosticsWarning'
+LspDiagnosticsSignInformation = 'link:LspDiagnosticsInfo'
+LspDiagnosticsSignInfo = 'link:LspDiagnosticsInfo'
+LspDiagnosticsSignHint = 'link:LspDiagnosticsHint'
+
+NvimTreeLspDiagnosticsError = 'link:LspDiagnosticsError'
+NvimTreeLspDiagnosticsWarning = 'link:LspDiagnosticsWarning'
+NvimTreeLspDiagnosticsInformation = 'link:LspDiagnosticsInfo'
+NvimTreeLspDiagnosticsInfo = 'link:LspDiagnosticsInfo'
+NvimTreeLspDiagnosticsHint = 'link:LspDiagnosticsHint'
+
+LspDiagnosticsUnderlineError = 'link:DiagnosticUnderlineError'
+LspDiagnosticsUnderlineWarning = 'link:DiagnosticUnderlineWarn'
+LspDiagnosticsUnderlineInformation = 'link:DiagnosticUnderlineInfo'
+LspDiagnosticsUnderlineInfo = 'link:DiagnosticUnderlineInfo'
+LspDiagnosticsUnderlineHint = 'link:DiagnosticUnderlineHint'
+
+LspReferenceRead = '- reference'
+LspReferenceText = '- reference'
+LspReferenceWrite = '- reference'
+
 LspCodeLens = 'graylens - i'
 LspCodeLensSeparator = 'graylens - i'
 
@@ -363,26 +427,8 @@ DashboardFooter = 'cyan'
 
 [Cmp]
 CmpItemAbbr = "fg"
-# CmpItemKindSnippet = 'red'
-# CmpItemKindMethod = 'blue'
-# CmpItemKindInterface = 'yellow'
-# CmpItemKindText = 'green'
-# CmpItemAbbrMatch = 'blue'
-# CmpItemKindProperty = 'blue'
-# CmpItemKindUnit = 'fg'
 CmpItemAbbrMatchFuzzy = 'blue'
 CmpItemAbbrDeprecated = 'comment_grey - s'
-# CmpItemKindFunction = 'purple'
-# CmpItemKindKeyword = 'yellow'
-# CmpItemKindConstructor = 'yellow'
-# CmpItemKindClass = 'yellow'
-# CmpItemKindEnum = 'darkyellow'
-# CmpItemKindEvent = 'cyan'
-# CmpItemKindStruct = 'cyan'
-# CmpItemKindField = 'blue'
-# CmpItemKindFile = 'blue'
-# CmpItemKindFolder = 'blue'
-# CmpItemKindTypeParameter = 'yellow'
 CmpItemKindFunction = 'purple'
 CmpItemKindMethod = 'blue'
 CmpItemKindConstructor = 'cyan'
