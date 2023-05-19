@@ -549,6 +549,8 @@ LazySpecial = "blue"
 LazyUrl = 'blue'
 LazyValue = 'cyan'
 
+[DevIcon]
+DevIconjs = 'yellow'
 
 # Languaje
 

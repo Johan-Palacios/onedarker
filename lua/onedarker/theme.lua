@@ -478,6 +478,9 @@ theme.set_highlights = function()
   hl(0, "LazyUrl", { fg = c.blue, bg = 'NONE' })
   hl(0, "LazyValue", { fg = c.cyan, bg = 'NONE' })
 
+  -- DevIcon
+  hl(0, "DevIconjs", { fg = c.yellow, bg = 'NONE' })
+
   -- java
   hl(0, "@type.qualifier.java", { fg = c.purple, bg = 'NONE' })
   hl(0, "@type.java", { fg = c.yellow, bg = 'NONE' })
