@@ -439,7 +439,7 @@ BufferLineModifiedVisible = 'link:BufferLineModified'
 BufferLineSeparator = 'alt_bg alt_bg'
 BufferLineSeparatorSelected = 'link:BufferLineSeparator'
 BufferLineSeparatorVisible = 'link:BufferLineSeparator'
-BufferLineBuffer = 'alt_bg alt_bg'
+BufferLineBuffer = 'fg alt_bg'
 BufferLineBufferSelected = 'fg bg'
 BufferLineBufferVisible = 'fg alt_bg'
 
