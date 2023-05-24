@@ -430,7 +430,6 @@ BufferTabpages = '- alt_bg'
 BufferLineIndicatorSelected = 'hint'
 BufferLineBackground = 'alt_bg alt_bg'
 BufferLineCloseButton = 'fg red'
-BufferLineFill = 'alt_bg alt_bg'
 
 [StatusLine]
 StatusLine = 'white black'
