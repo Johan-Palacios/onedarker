@@ -431,6 +431,9 @@ BufferLineIndicatorSelected = 'hint'
 BufferLineBackground = '- alt_bg'
 BufferLineCloseButton = 'fg -'
 BufferLineFill = '- alt_bg'
+BufferLineModified = 'yellow -'
+BufferLineModifiedSelected = 'link:BufferLineModified'
+BufferLineModifiedVisible = 'link:BufferLineModified'
 
 [StatusLine]
 StatusLine = 'white black'

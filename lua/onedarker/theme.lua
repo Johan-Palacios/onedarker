@@ -346,6 +346,9 @@ theme.set_highlights = function()
   hl(0, "BufferLineBackground", { fg = 'NONE', bg = c.alt_bg })
   hl(0, "BufferLineCloseButton", { fg = c.fg, bg = 'NONE' })
   hl(0, "BufferLineFill", { fg = 'NONE', bg = c.alt_bg })
+  hl(0, "BufferLineModified", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "BufferLineModifiedSelected", { link = 'BufferLineModified' })
+  hl(0, "BufferLineModifiedVisible", { link = 'BufferLineModified' })
 
   -- StatusLine
   hl(0, "StatusLine", { fg = c.white, bg = c.black })
