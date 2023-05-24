@@ -364,8 +364,8 @@ LspCodeLensSeparator = 'graylens - i'
 
 '@lsp.type.comment' = 'link:Comment'
 '@lsp.type.enum' = 'link:Type'
-'@lsp.type.interface' = 'link:Identifier'
-'@lsp.type.keyword' = 'link:Keyword'
+'@lsp.type.interface' = 'link:@identifier'
+'@lsp.type.keyword' = 'link:@keyword'
 '@lsp.type.namespace' = 'link:@namespace'
 '@lsp.type.parameter' = 'link:@parameter'
 '@lsp.type.property' = 'link:@property'
@@ -428,6 +428,9 @@ BufferTabpage = 'visual alt_bg'
 BufferTabpages = '- alt_bg'
 
 BufferLineIndicatorSelected = 'hint'
+BufferLineBackground = 'alt_bg alt_bg'
+BufferLineCloseButton = 'fg red'
+BufferLineFill = 'alt_bg alt_bg'
 
 [StatusLine]
 StatusLine = 'white black'
