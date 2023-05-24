@@ -429,11 +429,18 @@ BufferTabpages = '- alt_bg'
 
 BufferLineIndicatorSelected = 'hint'
 BufferLineBackground = '- alt_bg'
-BufferLineCloseButton = 'fg -'
+BufferLineCloseButton = 'comment_grey -'
+BufferLineCloseButtonSelected = 'red -'
+BufferLineCloseButtonVisible = 'comment_grey'
 BufferLineFill = '- alt_bg'
 BufferLineModified = 'yellow -'
 BufferLineModifiedSelected = 'link:BufferLineModified'
 BufferLineModifiedVisible = 'link:BufferLineModified'
+BufferLineDevIconDefault = '- -'
+BufferLineDevIconSelected = '- -'
+
+
+
 
 [StatusLine]
 StatusLine = 'white black'
