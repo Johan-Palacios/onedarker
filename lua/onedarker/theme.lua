@@ -355,8 +355,8 @@ theme.set_highlights = function()
   hl(0, "BufferLineSeparatorSelected", { link = 'BufferLineSeparator' })
   hl(0, "BufferLineSeparatorVisible", { link = 'BufferLineSeparator' })
   hl(0, "BufferLineBuffer", { fg = c.alt_bg, bg = c.alt_bg })
-  hl(0, "BufferLineBufferSelected", { fg = c.alt_bg, bg = c.bg })
-  hl(0, "BufferLineBufferVisible", { fg = c.comment_grey, bg = c.alt_bg })
+  hl(0, "BufferLineBufferSelected", { fg = c.fg, bg = c.bg })
+  hl(0, "BufferLineBufferVisible", { fg = c.fg, bg = c.alt_bg })
 
   -- StatusLine
   hl(0, "StatusLine", { fg = c.white, bg = c.black })
