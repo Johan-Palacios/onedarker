@@ -57,6 +57,7 @@ local colors = {
   ui2_orange = "#613214",
   ui_purple = "#B180D7",
   visual = "#42566f",
+  tab = "#373b43",
   folder = "#61afef",
 }
 

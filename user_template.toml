@@ -71,6 +71,8 @@ ui2_orange = '#613214'
 ui_purple = '#B180D7'
 visual = "#42566f"
 
+# Tab
+tab = '#373b43'
 
 # Folder
 folder = "#61afef"
@@ -442,6 +444,11 @@ BufferLineSeparatorVisible = 'link:BufferLineSeparator'
 BufferLineBuffer = 'fg fg'
 BufferLineBufferSelected = 'fg bg'
 BufferLineBufferVisible = 'fg alt_bg'
+BufferLineGroupSeparator = 'fg alt_bg'
+BufferLineTab = 'fg tab'
+BufferLineTabSelected = 'bg #81a1c1'
+BufferLineTabSeparator = "link:BufferLineTab"
+BufferLineTabClose = 'bg red'
 
 [StatusLine]
 StatusLine = 'white black'

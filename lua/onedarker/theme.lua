@@ -357,6 +357,11 @@ theme.set_highlights = function()
   hl(0, "BufferLineBuffer", { fg = c.fg, bg = c.fg })
   hl(0, "BufferLineBufferSelected", { fg = c.fg, bg = c.bg })
   hl(0, "BufferLineBufferVisible", { fg = c.fg, bg = c.alt_bg })
+  hl(0, "BufferLineGroupSeparator", { fg = c.fg, bg = c.alt_bg })
+  hl(0, "BufferLineTab", { fg = c.fg, bg = c.tab })
+  hl(0, "BufferLineTabSelected", { fg = c.bg, bg = '#81a1c1' })
+  hl(0, "BufferLineTabSeparator", { link = 'BufferLineTab' })
+  hl(0, "BufferLineTabClose", { fg = c.bg, bg = c.red })
 
   -- StatusLine
   hl(0, "StatusLine", { fg = c.white, bg = c.black })
