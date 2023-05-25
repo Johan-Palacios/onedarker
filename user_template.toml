@@ -428,7 +428,7 @@ BufferTabpage = 'visual alt_bg'
 BufferTabpages = '- alt_bg'
 
 BufferLineIndicatorSelected = 'hint'
-BufferLineBackground = 'alt_bg alt_bg'
+BufferLineBackground = 'fg alt_bg'
 BufferLineCloseButton = 'comment_grey alt_bg'
 BufferLineCloseButtonSelected = 'red bg'
 BufferLineCloseButtonVisible = 'comment_grey'
@@ -441,7 +441,7 @@ BufferLineSeparatorSelected = 'link:BufferLineSeparator'
 BufferLineSeparatorVisible = 'link:BufferLineSeparator'
 BufferLineBuffer = 'fg fg'
 BufferLineBufferSelected = 'fg bg'
-# BufferLineBufferVisible = 'fg alt_bg'
+BufferLineBufferVisible = 'fg alt_bg'
 
 [StatusLine]
 StatusLine = 'white black'
