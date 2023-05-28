@@ -1,15 +1,22 @@
 echo "Cleaning ..."
 
-FILE="./lua/onedarker/palette.lua"
+PALLETE="./lua/onedarker/palette.lua"
+THEME="./lua/onedarker/theme.lua"
 
 error() {
-    echo $1
-    exit 1
+  echo $1
+  exit 1
 }
-if [ ! -f "$FILE" ]; then
-  error "File not exist"
+
+if [ ! -f "$PALLETE" ]; then
+  error "Pallete not exist"
 fi
 
-if [ -f "$FILE" ]; then
-  colorgen-nvim user_template.toml && mv ./onedarker/lua/onedarker/palette.lua ./lua/onedarker/palette.lua && rm -r ./onedarker
+if [ ! -f "$THEME" ]; then
+  error "Theme not exist"
 fi
+
+colorgen-nvim user_template.toml 
+mv ./onedarker/lua/onedarker/palette.lua ./lua/onedarker/palette.lua
+mv ./onedarker/lua/onedarker/theme.lua ./lua/onedarker/theme.lua
+rm -r ./onedarker
