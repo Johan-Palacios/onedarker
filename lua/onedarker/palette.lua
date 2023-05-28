@@ -23,6 +23,7 @@ local colors = {
   foreground = "#ABB2BF",
   background = "#1e2127",
   comment_grey = "#5C6370",
+  buffer_grey = "#5c6370",
   gutter_fg_grey = "#4B5263",
   cursor_grey = "#2C323C",
   visual_grey = "#3E4452",

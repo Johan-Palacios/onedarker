@@ -28,6 +28,7 @@ black = "#1e2127"
 foreground = "#ABB2BF"
 background = "#1e2127"
 comment_grey = "#5C6370"
+buffer_grey = "#5c6370"
 gutter_fg_grey = "#4B5263"
 cursor_grey = "#2C323C"
 visual_grey = "#3E4452"
@@ -432,9 +433,16 @@ BufferTabpage = 'visual alt_bg'
 BufferTabpages = '- alt_bg'
 
 # BufferLine
+BufferLineBackground = 'comment_grey alt_bg'
+BufferLineIndicatorVisible = 'alt_bg alt_bg'
 BufferLineBuffer = 'fg bg'
-BufferLineGroupLabel = 'link:BufferLineBufferVisible'
-BufferLineOffsetSeparator = 'link:BufferLineBufferVisible'
+BufferLineBufferVisible = 'comment_grey alt_bg'
+BufferLineCloseButton = 'comment_grey alt_bg'
+BufferLineSeparator = 'alt_bg alt_bg'
+BufferLineSeparatorSelected = 'link:BufferLineSeparator'
+BufferLineSeparatorVisible = 'link:BufferLineSeparator'
+BufferLineGroupLabel = 'alt_bg alt_bg'
+BufferLineOffsetSeparator = 'alt_bg alt_bg'
 BufferLineGroupSeparator = 'bg bg'
 BufferLineIndicatorSelected = 'bg bg'
 BufferLineCloseButtonSelected = 'red bg'
@@ -597,6 +605,7 @@ LazyValue = 'cyan'
 
 [DevIcon]
 DevIconjs = 'yellow'
+DevIconDefault = 'red'
 
 # Languaje
 

@@ -14,7 +14,7 @@ M.setup = function()
   vim.g.colors_name = 'onedarker'
 
   theme.set_highlights()
-  vim.api.nvim_create_autocmd({ "BufEnter", "BufReadPost", "BufWinEnter", "BufRead" }, {
+  vim.api.nvim_create_autocmd({ "BufAdd","BufRead" , "BufEnter", "BufReadPost", "BufWinEnter", "WinLeave", "WinEnter", "TabEnter" }, {
     pattern = "*",
     callback = function()
       bufferline.remove_bg_icon()
