@@ -450,6 +450,7 @@ BufferLineFill = 'fg alt_bg'
 BufferLineModified = 'green -'
 BufferLineModifiedSelected = 'link:BufferLineModified'
 BufferLineModifiedVisible = 'red -'
+BufferLineDevIconDefault = "red -"
 BufferLineDevIconDefaultSelected = 'red -'
 BufferLineDevIconDefaultInactive = 'red -'
 BufferLineTab = 'fg bg'
