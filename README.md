@@ -2,16 +2,13 @@
 
 **Dark** Theme for Neovim, based on [OneDark](https://github.com/joshdick/onedark.vim), theme written in lua, with [Tressiter](https://github.com/nvim-treesitter/nvim-treesitter) Suport
 
-## Preview
+## ShowCase
 
-![image](https://user-images.githubusercontent.com/77251405/215610243-590faac9-2470-4712-bdd0-0263eb7704be.png)
-
-![image](https://user-images.githubusercontent.com/77251405/215610180-28d65f76-e6ae-4bdf-9502-4750827a7b47.png)
-
-![image](https://user-images.githubusercontent.com/77251405/215610450-0c7e73af-e9cb-4022-b3c8-85d1eba2e508.png)
-![image](https://user-images.githubusercontent.com/77251405/215610769-744c8fb5-b42b-4873-b170-b4bb65bebbdb.png)
-
-![image](https://user-images.githubusercontent.com/77251405/215610262-ff5b8974-e0eb-45d7-8b5f-6ed418aad8f4.png)
+![image](https://github.com/Johan-Palacios/nvim/assets/77251405/0adf691e-5485-4edd-a3cb-bcb291c92060)
+![image](https://github.com/Johan-Palacios/nvim/assets/77251405/3d3e5a0e-8b91-4b3e-b0e1-608111913d83)
+![image](https://github.com/Johan-Palacios/nvim/assets/77251405/aae50157-c8a0-481e-b13b-87c689407b30)
+![image](https://github.com/Johan-Palacios/nvim/assets/77251405/50de295e-ebd9-4456-8373-7beee6f72175)
+![image](https://github.com/Johan-Palacios/nvim/assets/77251405/172014de-3a7f-4ea9-b3f6-295edc3ef968)
 
 ## Instalation
 
@@ -34,14 +31,7 @@
 Install colorgen-nvim
 
 ```bash
-cargo install colorgen-nvim
-
-```
-
-Create colorscheme
-
-```bash
-colorgen-nvim user_template.toml && mv ./onedarker/* .
+./build.sh
 
 ```
 
