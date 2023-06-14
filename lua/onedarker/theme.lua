@@ -450,6 +450,16 @@ theme.set_highlights = function()
   hl(0, "rainbowcol5", { fg = c.cyan, bg = 'NONE' })
   hl(0, "rainbowcol6", { fg = c.purple, bg = 'NONE' })
 
+  -- Trouble
+  hl(0, "TroubleText", { fg = c.green, bg = 'NONE' })
+  hl(0, "TroubleCount", { fg = c.purple, bg = c.guttergrey })
+
+  -- Diff
+  hl(0, "DiffAdd", { fg = c.green, bg = 'NONE' })
+  hl(0, "DiffDelete", { fg = c.red, bg = 'NONE' })
+  hl(0, "DiffText", { fg = c.green, bg = 'NONE' })
+  hl(0, "DiffChange", { link = 'Visual' })
+
   -- Fidget
   hl(0, "FidgetTitle", { fg = c.green, bg = 'NONE' })
   hl(0, "FidgetTask", { fg = c.special_grey, bg = 'NONE' })

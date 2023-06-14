@@ -540,6 +540,17 @@ rainbowcol4 = "red"
 rainbowcol5 = "cyan"
 rainbowcol6 = "purple"
 
+[Trouble]
+TroubleText = 'green'
+TroubleCount = 'purple guttergrey'
+
+[Diff]
+DiffAdd = 'green'
+DiffDelete = 'red'
+DiffText = 'green'
+DiffChange = 'link:Visual'
+
+
 [Fidget]
 FidgetTitle = "green -"
 FidgetTask = "special_grey -"
