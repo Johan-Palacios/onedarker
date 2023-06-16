@@ -32,7 +32,6 @@
     <img alt="License" src="https://img.shields.io/github/license/lunarvim/lunarvim?style=for-the-badge&logo=starship&color=ee999f&logoColor=D9E0EE&labelColor=302D41" />
   </a>
 
-
 </p>
 
 **Dark** Theme for Neovim, based on [OneDark](https://github.com/joshdick/onedark.vim), theme written in lua, with [Tressiter](https://github.com/nvim-treesitter/nvim-treesitter) Suport
