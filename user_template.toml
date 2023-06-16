@@ -1,54 +1,54 @@
 [information]
-name = "onedarker"
-background = "dark"
+name = 'onedarker'
+background = 'dark'
 author = 'Johan Palacios <johanpalacios.rivera@gmail.com>'
 
 [palette]
-fg = "#ABB2BF"
-bg = "#1e2127"
-alt_fg = "#9CA5B4"
-alt_bg = "#21252A"
-red = "#E06C75"
-darkred = "#be5046"
-green = "#98c379"
-vibrant_green = "#7eca9c"
-yellow = "#E5C07B"
-darkyellow = "#d19a66"
-sun = "#EBCB8B"
-blue = "#61afef"
-purple = "#C678DD"
-dark_purple = "#c882e7"
-baby_pink = "#DE8C92"
-pink = "#ff75a0"
-line = "#31353d"
-cyan = "#56b6c2"
-teal = "#519ABA"
-white = "#abb2bf"
-black = "#1e2127"
-foreground = "#ABB2BF"
-background = "#1e2127"
-comment_grey = "#5C6370"
-buffer_grey = "#5c6370"
-gutter_fg_grey = "#4B5263"
-cursor_grey = "#2C323C"
-visual_grey = "#3E4452"
-menu_grey = "#3E4452"
-special_grey = "#3b4048"
-vertsplit = "#3E4452"
-lightyellow = "#e5c07b"
-magenta = "#c678dd"
-guttergrey = "#4b5263"
-grayillum = "#3E4452"
-graylens = "#4e545f"
-graydep = "#808080"
+fg = '#ABB2BF'
+bg = '#1e2127'
+alt_fg = '#9CA5B4'
+alt_bg = '#21252A'
+red = '#E06C75'
+darkred = '#be5046'
+green = '#98c379'
+vibrant_green = '#7eca9c'
+yellow = '#E5C07B'
+darkyellow = '#d19a66'
+sun = '#EBCB8B'
+blue = '#61afef'
+purple = '#C678DD'
+dark_purple = '#c882e7'
+baby_pink = '#DE8C92'
+pink = '#ff75a0'
+line = '#31353d'
+cyan = '#56b6c2'
+teal = '#519ABA'
+white = '#abb2bf'
+black = '#1e2127'
+foreground = '#ABB2BF'
+background = '#1e2127'
+comment_grey = '#5C6370'
+buffer_grey = '#5c6370'
+gutter_fg_grey = '#4B5263'
+cursor_grey = '#2C323C'
+visual_grey = '#3E4452'
+menu_grey = '#3E4452'
+special_grey = '#3b4048'
+vertsplit = '#3E4452'
+lightyellow = '#e5c07b'
+magenta = '#c678dd'
+guttergrey = '#4b5263'
+grayillum = '#3E4452'
+graylens = '#4e545f'
+graydep = '#808080'
 
 # Git
-sign_add = "#98c379"
-sign_change = "#e5c07b"
-sign_delete = "#e06c75"
+sign_add = '#98c379'
+sign_change = '#e5c07b'
+sign_delete = '#e06c75'
 
 # Telescope
-telescope_prev = "#282c34"
+telescope_prev = '#282c34'
 
 # Lsp
 error = '#be5046'
@@ -70,13 +70,13 @@ ui5_blue = '#083C5A'
 ui_orange = '#E8AB53'
 ui2_orange = '#613214'
 ui_purple = '#B180D7'
-visual = "#42566f"
+visual = '#42566f'
 
 # Tab
 tab = '#373b43'
 
 # Folder
-folder = "#61afef"
+folder = '#61afef'
 
 
 [highlights]
@@ -93,7 +93,7 @@ SpellRare = 'darkyellow - u'
 Pmenu = 'white black'
 PmenuSel = 'black blue'
 WildMenu = 'black blue'
-Cursor = "bg fg"
+Cursor = 'bg fg'
 CursorLineNr = 'fg - b'
 Comment = 'comment_grey - i'
 Folded = 'comment_grey'
@@ -101,7 +101,7 @@ FoldColumn = '-'
 VertSplit = 'vertsplit'
 NonText = 'special_grey'
 LineNr = 'gutter_fg_grey -'
-WinSeparator = "link:VertSplit"
+WinSeparator = 'link:VertSplit'
 FloatBorder = 'link:WinSeparator'
 Whitespace = 'link:NonText'
 CursorLine = '- #2C313C'
@@ -114,7 +114,7 @@ WarningMsg = 'yellow'
 DiffAdd = 'green black'
 DiffChange = 'yellow - u'
 DiffDelete = 'black red'
-DiffText = "black yellow"
+DiffText = 'black yellow'
 QuickFixLine = 'black yellow'
 PmenuSbar = '- cursor_grey'
 PmenuThumb = '- white'
@@ -131,8 +131,8 @@ Directory = 'blue'
 SpecialKey = 'special_grey - b'
 Title = 'green - b'
 ErrorMsg = 'red'
-Search = '- visual'
-IncSearch = 'white #55799E'
+Search = 'bg green'
+IncSearch = 'link:Search'
 Substitute = 'link:Search'
 MoreMsg = '- -'
 Question = 'purple'
@@ -144,7 +144,7 @@ Constant = 'red'
 Number = 'darkyellow'
 Boolean = 'darkyellow'
 Float = 'darkyellow'
-FloatTitle = "fg bg"
+FloatTitle = 'fg bg'
 Identifier = 'red'
 Function = 'blue'
 Operator = 'purple'
@@ -165,7 +165,7 @@ Macro = 'purple'
 PreCondit = 'yellow'
 Special = 'blue'
 SpecialChar = 'darkyellow'
-Conceal = "white -"
+Conceal = 'white -'
 Tag = '- -'
 Debug = '- -'
 Delimiter = '- -'
@@ -179,110 +179,110 @@ Error = 'red'
 TabLine = 'comment_grey'
 TabLineSel = 'white'
 TabLineFill = '- alt_bg'
-healthError = "red"
-healthSuccess = "green"
-healthWarning = "yellow"
+healthError = 'red'
+healthSuccess = 'green'
+healthWarning = 'yellow'
 
 [Treesitter]
-"@none" = "- -"
-"@preproc" = "link:PreProc"
-"@comment" = 'link:Comment'
-"@annotation" = 'link:PreProc'
-"@identifier" = "red"
-"@attribute" = 'link:PreProc'
-"@constructor" = 'red'
-"@type" = 'link:Type'
-"@type.builtin" = 'link:Typedef'
-"@type.definition" = 'link:@type'
-"@type.qualifier" = 'link:@type'
-"@conditional" = 'link:Conditional'
-"@exception" = 'link:Exception'
-"@include" = 'link:Include'
-"@operator" = "link:Operator"
-"@keyword" = 'link:Keyword'
-"@keyword.function" = 'link:Keyword'
-"@keyword.operatior" = "link:@operator"
-"@keyword.return" = "link:@keyword"
-"@label" = 'link:Label'
-"@namespace" = 'link:StorageClass'
-"@repeat" = 'link:Repeat'
-"@constant" = 'link:Constant'
-"@constant.builtin" = 'link:Special'
-"@constant.macro" = "link:Define"
-"@float" = 'link:Float'
-"@number" = 'link:Number'
-"@boolean" = 'link:Boolean'
-"@character" = 'link:Character'
-"@character.special" = "link:SpecialChar"
-"@error" = 'link:Error'
-"@function" = 'link:Function'
-"@function.builtin" = 'link:Special'
-"@function.call" = "link:@function"
-"@function.macro" = 'link:Macro'
-"@method" = 'link:@function'
-"@method.call" = 'link:@method'
-"@property" = 'link:Identifier'
-"@field" = 'link:Identifier'
-"@parameter" = 'link:Identifier'
-"@parameter.reference" = 'link:@parameter'
-"@symbol" = 'link:Identifier'
-"@storageclass" = "link:StorageClass"
-"@text" = 'link:@none'
-"@text.danger" = "link:WarningMsg"
-"@text.warning" = "link:Todo"
-"@text.strong" = 'fg - b'
-"@text.emphasis" = "fg - i"
-"@text.underline" = "fg - u"
-"@text.strike" = "fg - s"
-"@text.title" = "fg - b"
-"@text.literal" = "link:@String"
-"@text.uri" = "cyan - u"
-"@text.note" = "link:SpecialComment"
-"@text.math" = "fg"
-"@text.reference" = "link:Constant"
-"@text.enviroment" = "fg"
-"@text.enviroment.name" = "fg"
-"@text.diff.add" = "link:SignAdd"
-"@text.diff.delete" = "link:SignDelete"
-"@text.literal.markdown" = "blue"
-"@text.literal.markdown_inline" = "blue"
-"@punctuation.delimiter" = "link:Delimiter"
-"@punctuation.bracket" = "white"
-"@punctuation.special" = "purple"
-"@punctuation.special.markdown" = "darkyellow - b"
-"@tag" = "red"
-"@tag.delimiter" = "white"
-"@tag.attribute" = "darkyellow"
-"@string" = "link:String"
-"@string.reguex" = "link:SpecialChar"
-"@string.escape" = "link:SpecialChar"
-"@string.special" = "link:SpecialChar"
-"@variable" = "link:Variable"
-"@variable.builtin" = "link:Special"
+'@none' = '- -'
+'@preproc' = 'link:PreProc'
+'@comment' = 'link:Comment'
+'@annotation' = 'link:PreProc'
+'@identifier' = 'red'
+'@attribute' = 'link:PreProc'
+'@constructor' = 'red'
+'@type' = 'link:Type'
+'@type.builtin' = 'link:Typedef'
+'@type.definition' = 'link:@type'
+'@type.qualifier' = 'link:@type'
+'@conditional' = 'link:Conditional'
+'@exception' = 'link:Exception'
+'@include' = 'link:Include'
+'@operator' = 'link:Operator'
+'@keyword' = 'link:Keyword'
+'@keyword.function' = 'link:Keyword'
+'@keyword.operatior' = 'link:@operator'
+'@keyword.return' = 'link:@keyword'
+'@label' = 'link:Label'
+'@namespace' = 'link:StorageClass'
+'@repeat' = 'link:Repeat'
+'@constant' = 'link:Constant'
+'@constant.builtin' = 'link:Special'
+'@constant.macro' = 'link:Define'
+'@float' = 'link:Float'
+'@number' = 'link:Number'
+'@boolean' = 'link:Boolean'
+'@character' = 'link:Character'
+'@character.special' = 'link:SpecialChar'
+'@error' = 'link:Error'
+'@function' = 'link:Function'
+'@function.builtin' = 'link:Special'
+'@function.call' = 'link:@function'
+'@function.macro' = 'link:Macro'
+'@method' = 'link:@function'
+'@method.call' = 'link:@method'
+'@property' = 'link:Identifier'
+'@field' = 'link:Identifier'
+'@parameter' = 'link:Identifier'
+'@parameter.reference' = 'link:@parameter'
+'@symbol' = 'link:Identifier'
+'@storageclass' = 'link:StorageClass'
+'@text' = 'link:@none'
+'@text.danger' = 'link:WarningMsg'
+'@text.warning' = 'link:Todo'
+'@text.strong' = 'fg - b'
+'@text.emphasis' = 'fg - i'
+'@text.underline' = 'fg - u'
+'@text.strike' = 'fg - s'
+'@text.title' = 'fg - b'
+'@text.literal' = 'link:@String'
+'@text.uri' = 'cyan - u'
+'@text.note' = 'link:SpecialComment'
+'@text.math' = 'fg'
+'@text.reference' = 'link:Constant'
+'@text.enviroment' = 'fg'
+'@text.enviroment.name' = 'fg'
+'@text.diff.add' = 'link:SignAdd'
+'@text.diff.delete' = 'link:SignDelete'
+'@text.literal.markdown' = 'blue'
+'@text.literal.markdown_inline' = 'blue'
+'@punctuation.delimiter' = 'link:Delimiter'
+'@punctuation.bracket' = 'white'
+'@punctuation.special' = 'purple'
+'@punctuation.special.markdown' = 'darkyellow - b'
+'@tag' = 'red'
+'@tag.delimiter' = 'white'
+'@tag.attribute' = 'darkyellow'
+'@string' = 'link:String'
+'@string.reguex' = 'link:SpecialChar'
+'@string.escape' = 'link:SpecialChar'
+'@string.special' = 'link:SpecialChar'
+'@variable' = 'link:Variable'
+'@variable.builtin' = 'link:Special'
 
 
 [XML]
-xmlAttrib = "darkyellow"
-xmlEndTag = "red"
-xmlTag = "red"
-xmlTagName = "red"
+xmlAttrib = 'darkyellow'
+xmlEndTag = 'red'
+xmlTag = 'red'
+xmlTagName = 'red'
 
 [Whichkey]
 WhichKeyBorder = 'graylens -'
 
 [Telescope]
-TelescopeBorder = "bg bg"
-TelescopeNormal = "bg"
-TelescopePreviewBorder = "telescope_prev telescope_prev"
-TelescopePreviewNormal = "fg telescope_prev"
-TelescopePreviewTitle = "bg green"
-TelescopePromptBorder = "black black"
-TelescopePromptNormal = "white black"
-TelescopePromptPrefix = "red black"
-TelescopePromptTitle = "bg red "
-TelescopeResultsBorder = "telescope_prev telescope_prev"
-TelescopeResultsNormal = "- telescope_prev"
-TelescopeResultsTitle = "telescope_prev telescope_prev"
+TelescopeBorder = 'bg bg'
+TelescopeNormal = 'bg'
+TelescopePreviewBorder = 'telescope_prev telescope_prev'
+TelescopePreviewNormal = 'fg telescope_prev'
+TelescopePreviewTitle = 'bg green'
+TelescopePromptBorder = 'black black'
+TelescopePromptNormal = 'white black'
+TelescopePromptPrefix = 'red black'
+TelescopePromptTitle = 'bg red'
+TelescopeResultsBorder = 'telescope_prev telescope_prev'
+TelescopeResultsNormal = '- telescope_prev'
+TelescopeResultsTitle = 'telescope_prev telescope_prev'
 
 [Git]
 SignAdd = 'sign_add'
@@ -381,9 +381,9 @@ LspCodeLensSeparator = 'graylens - i'
 '@lsp.typemod.variable.injected' = 'link:@variable'
 
 [Illuminate]
-IlluminatedWordWrite = "- menu_grey"
-IlluminatedWordRead = "- menu_grey"
-IlluminatedWordText = "- menu_grey"
+IlluminatedWordWrite = '- menu_grey'
+IlluminatedWordRead = '- menu_grey'
+IlluminatedWordText = '- menu_grey'
 
 [NvimTree]
 NvimTreeFolderIcon = 'link:Directory'
@@ -451,12 +451,12 @@ BufferLineFill = 'fg alt_bg'
 BufferLineModified = 'green -'
 BufferLineModifiedSelected = 'link:BufferLineModified'
 BufferLineModifiedVisible = 'red -'
-BufferLineDevIconDefault = "red -"
+BufferLineDevIconDefault = 'red -'
 BufferLineDevIconDefaultSelected = 'red -'
 BufferLineDevIconDefaultInactive = 'red -'
 BufferLineTab = 'fg bg'
 BufferLineTabSelected = 'bg #81a1c1'
-BufferLineTabSeparator = "bg bg"
+BufferLineTabSeparator = 'bg bg'
 BufferLineTabSeparatorSelected = 'link:BufferLineTabSelected'
 BufferLineTabClose = 'red bg'
 
@@ -479,7 +479,7 @@ DashboardCenter = 'purple'
 DashboardFooter = 'cyan'
 
 [Cmp]
-CmpItemAbbr = "fg"
+CmpItemAbbr = 'fg'
 CmpItemAbbrMatchFuzzy = 'blue'
 CmpItemAbbrDeprecated = 'comment_grey - s'
 CmpItemKindFunction = 'purple'
@@ -509,36 +509,46 @@ CmpItemKindOperator = 'fg'
 CmpItemKindTypeParameter = 'red'
 
 [LspSaga]
-TitleString = "white black"
-TitleSymbol = "black black"
-TitleIcon = "red black"
-SagaBorder = "link:FloatBorder"
-SagaNormal = "link:Normal"
-SagaExpand = "red"
-SagaCollapse = "red"
-SagaBeacon = "magenta"
-ActionPreviewTitle = "purple black"
-CodeActionText = "yellow"
-CodeActionConceal = "green"
-FinderSelection = "cyan - b"
-FinderFileName = "white"
-FinderIcon = "cyan"
-FinderType = "purple"
-FinderSpinnerTitle = "magenta - b"
-FInderVirtText = "red"
-RenameNormal = "darkyellow black"
-CallHierarchyIcon = "purple"
-CallHierarchyTitle = "red"
-SagaShadow = "- black"
-OutlineIndent = "link:IndentBlanklineContextChar"
+TitleString = 'white black'
+TitleSymbol = 'black black'
+TitleIcon = 'red black'
+SagaBorder = 'link:FloatBorder'
+SagaNormal = 'link:Normal'
+SagaExpand = 'red'
+SagaCollapse = 'red'
+SagaBeacon = 'magenta'
+ActionPreviewTitle = 'purple black'
+CodeActionText = 'yellow'
+CodeActionConceal = 'green'
+FinderSelection = 'cyan - b'
+FinderFileName = 'white'
+FinderIcon = 'cyan'
+FinderType = 'purple'
+FinderSpinnerTitle = 'magenta - b'
+FInderVirtText = 'red'
+RenameNormal = 'darkyellow black'
+CallHierarchyIcon = 'purple'
+CallHierarchyTitle = 'red'
+SagaShadow = '- black'
+OutlineIndent = 'link:IndentBlanklineContextChar'
 
 [TSRainbow]
-rainbowcol1 = "darkyellow"
-rainbowcol2 = "purple"
-rainbowcol3 = "blue"
-rainbowcol4 = "red"
-rainbowcol5 = "cyan"
-rainbowcol6 = "purple"
+rainbowcol1 = 'darkyellow'
+rainbowcol2 = 'purple'
+rainbowcol3 = 'blue'
+rainbowcol4 = 'red'
+rainbowcol5 = 'cyan'
+rainbowcol6 = 'purple'
+
+[TSRainbow2]
+TSRainbowRed = 'red'
+TSRainbowYellow = 'yellow'
+TSRainbowBlue = 'blue'
+TSRainbowOrange = 'darkyellow'
+TSRainbowGreen = 'green'
+TSRainbowViolet = 'purple'
+TSRainbowCyan = 'cyan'
+
 
 [Trouble]
 TroubleText = 'green'
@@ -552,8 +562,8 @@ DiffChange = 'link:Visual'
 
 
 [Fidget]
-FidgetTitle = "green -"
-FidgetTask = "special_grey -"
+FidgetTitle = 'green -'
+FidgetTask = 'special_grey -'
 
 [Navic]
 NavicIconsFile = 'fg'
@@ -610,9 +620,9 @@ LazyButtonActive = 'fg comment_grey'
 LazyComment = 'link:Comment'
 LazyCommit = 'darkyellow'
 LazyCommitIssue = 'blue'
-LazyH1 = "blue bg b"
-LazyReasonStart = "cyan"
-LazySpecial = "blue"
+LazyH1 = 'blue bg b'
+LazyReasonStart = 'cyan'
+LazySpecial = 'blue'
 LazyUrl = 'blue'
 LazyValue = 'cyan'
 
@@ -620,25 +630,74 @@ LazyValue = 'cyan'
 DevIconjs = 'yellow'
 DevIconDefault = 'red'
 
+[Dap]
+DapBreakpoint = 'red'
+DapBreakpointCondition = 'yellow'
+DapLogPoint = 'cyan'
+DapStopped = 'purple'
+DapUIScope = 'cyan'
+DapUIType = 'purple'
+DapUIValue = 'cyan'
+DapUIVariable = 'white'
+DapUIModifiedValue = 'darkyellow'
+DapUIDecoration = 'cyan'
+DapUIThread = 'green'
+DapUIStoppedThread = 'green'
+DapUISource = 'blue'
+DapUILineNumber = 'cyan'
+DapUIFloatBorder = 'cyan'
+DapUIWatchesEmpty = 'purple'
+DapUIWatchesValue = 'green'
+DapUIWatchesError = 'purple'
+DapUIBreakpointsPath = 'cyan'
+DapUIBreakpointsInfo = 'green'
+DapUIBreakPointsCurrentLine = 'green - b'
+DapUIBreakpointsDisabledLine = 'comment_grey'
+DapUIStepOver = 'blue'
+DapUIStepInto = 'blue'
+DapUIStepBack = 'blue'
+DapUIStepOut = 'blue'
+DapUIStop = 'red'
+DapUIPlayPause = 'green'
+DapUIRestart = 'green'
+DapUIUnavailable = 'comment_grey'
+
+
 # Languaje
 
 [java]
-"@type.qualifier.java" = "purple"
-"@type.java" = "yellow"
-"@variable.java" = "red"
-"@variable.builtin.java" = "yellow"
-"@function.builtin.java" = "yellow"
-"@type.builtin.java" = "purple"
+#LspTokens
+'@lsp.type.class.java' = 'yellow'
+'@lsp.type.parameter.java' = 'darkyellow'
+'@lsp.type.variable.java' = 'red'
+'@lsp.type.interface.java' = 'yellow'
+#Treesiter
+'@include.java' = 'purple'
+'@boolean.java' = 'purple'
+'@type.qualifier.java' = 'purple'
+'@parameter.java' = 'darkyellow'
+'@type.java' = 'yellow'
+'@variable.java' = 'red'
+'@variable.builtin.java' = 'yellow'
+'@function.builtin.java' = 'yellow'
+'@type.builtin.java' = 'purple'
 
 [javascript]
-"@variable.builtin.javascript" = "yellow"
+'@variable.builtin.javascript' = 'yellow'
 
 [lua]
-"@constant.lua" = "yellow"
-"@variable.builtin.lua" = "yellow"
+'@constant.lua' = 'yellow'
+'@variable.builtin.lua' = 'yellow'
+#LspTokens
+'@lsp.typemod.variable.defaultLibrary.lua' = 'yellow'
+'@lsp.type.parameter.lua' = 'yellow'
+'@lsp.type.function.lua' = '-'
+'@lsp.typemod.function.defaultLibrary.lua' = '-'
+'@lsp.type.property.lua' = '-'
+'@lsp.type.method.lua' = '-'
 
 [python]
-"@variable.builtin.python" = "darkyellow"
+'@variable.builtin.python' = 'darkyellow'
 
 [Markdown]
 '@text.reference.markdown_inline' = 'blue'
