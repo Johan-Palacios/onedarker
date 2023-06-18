@@ -668,14 +668,15 @@ DapUIUnavailable = 'comment_grey'
 [java]
 #LspTokens
 '@lsp.type.class.java' = 'yellow'
-'@lsp.type.parameter.java' = 'darkyellow'
+'@lsp.type.parameter.java' = 'red'
 '@lsp.type.variable.java' = 'red'
 '@lsp.type.interface.java' = 'yellow'
+'@lsp.mod.constructor.java' = 'blue'
 #Treesiter
 '@include.java' = 'purple'
-'@boolean.java' = 'purple'
+'@boolean.java' = 'darkyellow'
 '@type.qualifier.java' = 'purple'
-'@parameter.java' = 'darkyellow'
+'@parameter.java' = 'red'
 '@type.java' = 'yellow'
 '@variable.java' = 'red'
 '@variable.builtin.java' = 'yellow'
