@@ -362,7 +362,7 @@ LspReferenceWrite = '- reference'
 
 LspCodeLens = 'graylens - i'
 LspCodeLensSeparator = 'graylens - i'
-LspInlayHint = "link:LspCodeLens"
+LspInlayHint = "graylens alt_bg i"
 
 # Semantic tockens
 
