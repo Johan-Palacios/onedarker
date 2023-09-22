@@ -534,22 +534,15 @@ CallHierarchyTitle = 'red'
 SagaShadow = '- black'
 OutlineIndent = 'link:IndentBlanklineContextChar'
 
-[TSRainbow]
-rainbowcol1 = 'darkyellow'
-rainbowcol2 = 'purple'
-rainbowcol3 = 'blue'
-rainbowcol4 = 'red'
-rainbowcol5 = 'cyan'
-rainbowcol6 = 'purple'
 
-[TSRainbow2]
-TSRainbowRed = 'red'
-TSRainbowYellow = 'yellow'
-TSRainbowBlue = 'blue'
-TSRainbowOrange = 'darkyellow'
-TSRainbowGreen = 'green'
-TSRainbowViolet = 'purple'
-TSRainbowCyan = 'cyan'
+[TSRainbowDelimiter]
+RainbowDelimiterRed = 'red'
+RainbowDelimiterYellow = 'yellow'
+RainbowDelimiterBlue = 'blue'
+RainbowDelimiterOrange = 'darkyellow'
+RainbowDelimiterGreen = 'green'
+RainbowDelimiterViolet = 'purple'
+RainbowDelimiterCyan = 'cyan'
 
 
 [Trouble]

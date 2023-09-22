@@ -443,22 +443,14 @@ theme.set_highlights = function()
   hl(0, "SagaShadow", { fg = 'NONE', bg = c.black })
   hl(0, "OutlineIndent", { link = 'IndentBlanklineContextChar' })
 
-  -- TSRainbow
-  hl(0, "rainbowcol1", { fg = c.darkyellow, bg = 'NONE' })
-  hl(0, "rainbowcol2", { fg = c.purple, bg = 'NONE' })
-  hl(0, "rainbowcol3", { fg = c.blue, bg = 'NONE' })
-  hl(0, "rainbowcol4", { fg = c.red, bg = 'NONE' })
-  hl(0, "rainbowcol5", { fg = c.cyan, bg = 'NONE' })
-  hl(0, "rainbowcol6", { fg = c.purple, bg = 'NONE' })
-
-  -- TSRainbow2
-  hl(0, "TSRainbowRed", { fg = c.red, bg = 'NONE' })
-  hl(0, "TSRainbowYellow", { fg = c.yellow, bg = 'NONE' })
-  hl(0, "TSRainbowBlue", { fg = c.blue, bg = 'NONE' })
-  hl(0, "TSRainbowOrange", { fg = c.darkyellow, bg = 'NONE' })
-  hl(0, "TSRainbowGreen", { fg = c.green, bg = 'NONE' })
-  hl(0, "TSRainbowViolet", { fg = c.purple, bg = 'NONE' })
-  hl(0, "TSRainbowCyan", { fg = c.cyan, bg = 'NONE' })
+  -- TSRainbowDelimiter
+  hl(0, "RainbowDelimiterRed", { fg = c.red, bg = 'NONE' })
+  hl(0, "RainbowDelimiterYellow", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "RainbowDelimiterBlue", { fg = c.blue, bg = 'NONE' })
+  hl(0, "RainbowDelimiterOrange", { fg = c.darkyellow, bg = 'NONE' })
+  hl(0, "RainbowDelimiterGreen", { fg = c.green, bg = 'NONE' })
+  hl(0, "RainbowDelimiterViolet", { fg = c.purple, bg = 'NONE' })
+  hl(0, "RainbowDelimiterCyan", { fg = c.cyan, bg = 'NONE' })
 
   -- Trouble
   hl(0, "TroubleText", { fg = c.green, bg = 'NONE' })
