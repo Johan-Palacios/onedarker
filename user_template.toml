@@ -461,6 +461,7 @@ BufferLineTabSelected = 'bg #81a1c1'
 BufferLineTabSeparator = 'bg bg'
 BufferLineTabSeparatorSelected = 'link:BufferLineTabSelected'
 BufferLineTabClose = 'red bg'
+BufferLineTruncMarker = 'comment_grey alt_bg'
 
 [StatusLine]
 StatusLine = 'white black'

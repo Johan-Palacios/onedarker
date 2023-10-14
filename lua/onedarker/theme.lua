@@ -370,6 +370,7 @@ theme.set_highlights = function()
   hl(0, "BufferLineTabSeparator", { fg = c.bg, bg = c.bg })
   hl(0, "BufferLineTabSeparatorSelected", { link = 'BufferLineTabSelected' })
   hl(0, "BufferLineTabClose", { fg = c.red, bg = c.bg })
+  hl(0, "BufferLineTruncMarker", { fg = c.comment_grey, bg = c.alt_bg })
 
   -- StatusLine
   hl(0, "StatusLine", { fg = c.white, bg = c.black })
