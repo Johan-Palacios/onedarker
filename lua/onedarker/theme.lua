@@ -107,6 +107,7 @@ theme.set_highlights = function()
   hl(0, "healthError", { fg = c.red, bg = 'NONE' })
   hl(0, "healthSuccess", { fg = c.green, bg = 'NONE' })
   hl(0, "healthWarning", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "WinBarNC", { fg = c.white, bg = c.bg })
 
   -- Treesitter
   hl(0, "@none", { fg = 'NONE', bg = 'NONE' })

@@ -183,6 +183,7 @@ TabLineFill = '- alt_bg'
 healthError = 'red'
 healthSuccess = 'green'
 healthWarning = 'yellow'
+WinBarNC = 'white bg'
 
 [Treesitter]
 '@none' = '- -'
