@@ -612,6 +612,7 @@ NotifyDEBUGTitle = 'comment_grey'
 NotifyTRACETitle = 'ui_purple'
 
 [Lazy]
+LazyBackdrop = 'bg bg'
 LazyButton = 'fg bg'
 LazyButtonActive = 'fg comment_grey'
 LazyComment = 'link:Comment'
@@ -624,7 +625,8 @@ LazyUrl = 'blue'
 LazyValue = 'cyan'
 
 [DevIcon]
-DevIconjs = 'yellow'
+DevIconjs = 'yellow bg'
+DevIcontoml = 'comment_grey'
 DevIconDefault = 'red'
 
 [Dap]
