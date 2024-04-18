@@ -517,6 +517,7 @@ theme.set_highlights = function()
   hl(0, "NotifyTRACETitle", { fg = c.ui_purple, bg = 'NONE' })
 
   -- Lazy
+  hl(0, "LazyBackdrop", { fg = c.bg, bg = c.bg })
   hl(0, "LazyButton", { fg = c.fg, bg = c.bg })
   hl(0, "LazyButtonActive", { fg = c.fg, bg = c.comment_grey })
   hl(0, "LazyComment", { link = 'Comment' })
