@@ -530,7 +530,7 @@ theme.set_highlights = function()
   hl(0, "LazyValue", { fg = c.cyan, bg = 'NONE' })
 
   -- DevIcon
-  hl(0, "DevIconjs", { fg = c.yellow, bg = c.bg })
+  hl(0, "DevIconjs", { fg = c.yellow, bg = 'NONE' })
   hl(0, "DevIcontoml", { fg = c.comment_grey, bg = 'NONE' })
   hl(0, "DevIconDefault", { fg = c.red, bg = 'NONE' })
 

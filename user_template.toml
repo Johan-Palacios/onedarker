@@ -625,9 +625,9 @@ LazyUrl = 'blue'
 LazyValue = 'cyan'
 
 [DevIcon]
-DevIconjs = 'yellow bg'
-DevIcontoml = 'comment_grey'
-DevIconDefault = 'red'
+DevIconjs = 'yellow -'
+DevIcontoml = 'comment_grey -'
+DevIconDefault = 'red -'
 
 [Dap]
 DapBreakpoint = 'red'
