@@ -684,6 +684,8 @@ DapUIUnavailable = 'comment_grey'
 
 [javascript]
 '@variable.builtin.javascript' = 'yellow'
+'@tag.builtin.javascript' = 'red'
+'@lsp.typemod.variable.defaultLibrary.javascriptreact' = 'yellow'
 
 [lua]
 '@constant.lua' = 'yellow'
@@ -722,3 +724,7 @@ DapUIUnavailable = 'comment_grey'
 '@lsp.type.class.markdown' = 'blue'
 '@text.literal.markdown_inline' = 'darkyellow'
 '@text.literal.markdown' = 'darkyellow'
+
+[Css]
+'@attribute.css' = 'cyan'
+'@constant.css' = 'cyan'

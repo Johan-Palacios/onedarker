@@ -584,6 +584,8 @@ theme.set_highlights = function()
 
   -- javascript
   hl(0, "@variable.builtin.javascript", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "@tag.builtin.javascript", { fg = c.red, bg = 'NONE' })
+  hl(0, "@lsp.typemod.variable.defaultLibrary.javascriptreact", { fg = c.yellow, bg = 'NONE' })
 
   -- lua
   hl(0, "@constant.lua", { fg = c.yellow, bg = 'NONE' })
@@ -621,6 +623,10 @@ theme.set_highlights = function()
   hl(0, "@lsp.type.class.markdown", { fg = c.blue, bg = 'NONE' })
   hl(0, "@text.literal.markdown_inline", { fg = c.darkyellow, bg = 'NONE' })
   hl(0, "@text.literal.markdown", { fg = c.darkyellow, bg = 'NONE' })
+
+  -- Css
+  hl(0, "@attribute.css", { fg = c.cyan, bg = 'NONE' })
+  hl(0, "@constant.css", { fg = c.cyan, bg = 'NONE' })
 end
 
 return theme
