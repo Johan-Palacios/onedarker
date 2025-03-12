@@ -569,6 +569,7 @@ theme.set_highlights = function()
 
   -- Mason
   hl(0, "MasonBackdrop", { fg = c.bg, bg = 'NONE' })
+
   -- java
   hl(0, "@lsp.type.class.java", { fg = c.yellow, bg = 'NONE' })
   hl(0, "@lsp.type.parameter.java", { fg = c.red, bg = 'NONE' })
