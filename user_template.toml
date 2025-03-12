@@ -625,7 +625,7 @@ LazyUrl = 'blue'
 LazyValue = 'cyan'
 
 [DevIcon]
-DevIconjs = 'yellow -'
+DevIconjs = 'yellow'
 DevIcontoml = 'comment_grey -'
 DevIconDefault = 'red -'
 
