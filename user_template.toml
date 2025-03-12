@@ -627,6 +627,7 @@ LazyValue = 'cyan'
 [DevIcon]
 DevIconjs = 'yellow'
 BufferLineDevIconjs = 'yellow bg'
+BufferLineDevIconCheckhealth = '#75b4fb bg'
 DevIcontoml = 'comment_grey -'
 DevIconDefault = 'red -'
 

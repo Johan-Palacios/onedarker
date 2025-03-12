@@ -532,6 +532,7 @@ theme.set_highlights = function()
   -- DevIcon
   hl(0, "DevIconjs", { fg = c.yellow, bg = 'NONE' })
   hl(0, "BufferLineDevIconjs", { fg = c.yellow, bg = c.bg })
+  hl(0, "BufferLineDevIconCheckhealth", { fg = '#75b4fb', bg = c.bg })
   hl(0, "DevIcontoml", { fg = c.comment_grey, bg = 'NONE' })
   hl(0, "DevIconDefault", { fg = c.red, bg = 'NONE' })
 
