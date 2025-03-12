@@ -567,6 +567,8 @@ theme.set_highlights = function()
   hl(0, "DapUIRestart", { fg = c.green, bg = 'NONE' })
   hl(0, "DapUIUnavailable", { fg = c.comment_grey, bg = 'NONE' })
 
+  -- Mason
+  hl(0, "MasonBackdrop", { fg = c.bg, bg = 'NONE' })
   -- java
   hl(0, "@lsp.type.class.java", { fg = c.yellow, bg = 'NONE' })
   hl(0, "@lsp.type.parameter.java", { fg = c.red, bg = 'NONE' })
