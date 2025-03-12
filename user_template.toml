@@ -662,6 +662,8 @@ DapUIPlayPause = 'green'
 DapUIRestart = 'green'
 DapUIUnavailable = 'comment_grey'
 
+[Mason]
+MasonBackdrop = 'bg -'
 
 # Languaje
 
