@@ -15,9 +15,11 @@ M.remove_bg_icon = function()
 	local completition = vim.fn.getcompletion(patterns[1], "highlight")
 
 	if vim.tbl_isempty(completition) then
+    -- local icon_hl = vim.api.nvim_get_hl(0, { name = icon_name })
 		local icon_hl = vim.api.nvim_get_hl_by_name(icon_name, true)
 		vim.api.nvim_set_hl(0, patterns[1], { fg = icon_hl["foreground"], bg = colors.alt_bg })
 		vim.api.nvim_set_hl(0, patterns[2], { fg = icon_hl["foreground"], bg = colors.alt_bg })
+		-- vim.api.nvim_set_hl(0, patterns[3], { fg = icon_hl["foreground"], bg = colors.alt_bg })
   end
 		-- for _, group in ipairs(completition) do
 		-- 	local hl = vim.api.nvim_get_hl_by_name(group, true)
